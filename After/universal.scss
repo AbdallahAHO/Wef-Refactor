@@ -1,0 +1,36 @@
+/*------------------------------------------------------------------
+Weftid Beta Universal Style Sheet
+(Contains all third party and plugins style sheets e.g. Bootstrap, ionicons, etc.)
+
+Version: 0.0.1
+Created By:	Abdallah Hassan
+-------------------------------------------------------------------*/
+
+/* ===================================================
+Font Import
+=================================================== */
+@font-face {
+  font-family: "weftid-icon-font";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/weftid-icon-font.eot?91582595");
+  src: url("../fonts/weftid-icon-font.eot?91582595#iefix") format("embedded-opentype"), url("../fonts/weftid-icon-font.woff?91582595") format("woff"), url("../fonts/weftid-icon-font.ttf?91582595") format("truetype"), url("../fonts/weftid-icon-font.svg?91582595#weftid-icon-font") format("svg");
+}
+
+/* ===================================================
+BASE
+=================================================== */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===================================================
+Bootstrap
+=================================================== */
+
+/* ===================================================
+Ionicons
+=================================================== */
+
+

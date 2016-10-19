@@ -1,0 +1,178 @@
+/************************************   Talent Board Banner   ************************************/
+.hr {
+    width: 1200px;
+    margin: -10px auto 0 auto;
+
+    border-bottom: 1px solid #d6d7e1;
+}
+
+.banner-wrapper {
+    position: relative;
+
+    width: 1200px;
+}
+
+.banner-profile-img {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 340px;
+    height: 215px;
+}
+
+.banner-image {
+    width: 100%;
+    height: 100%;
+
+    border: none !important;
+}
+
+.banner-rside-wrap {
+    position: relative;
+
+    width: 860px;
+    height: 215px;
+
+    color: #fff;
+}
+
+.banner-rside-info {
+    position: relative;
+    z-index: 1;
+
+    margin: 30px 0 0 30px;
+}
+
+.banner-rside-wrap-blank {
+    color: #525253;
+    background-color: #e7f7f6;
+    background-image: none;
+}
+
+.banner-rside-info * {
+    margin-bottom: 2px;
+}
+
+.banner-rside-name {
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.banner-rside-tid {
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+}
+
+.banner-rside-title {
+    font-size: 21px;
+    font-weight: 200;
+
+    margin-bottom: 9px;
+}
+
+.banner-rside-date,
+.banner-rside-location {
+    font-size: 14px;
+    font-weight: 200;
+
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+.banner-rside-seemore {
+    font-size: 16px;
+    font-weight: 200;
+
+    margin-bottom: 10px;
+}
+
+.banner-rside-upgrade {
+    font-family: arial;
+    font-size: 13px;
+
+    display: flex;
+
+    width: 105px;
+    height: 30px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: #404041;
+    border: none;
+    background: url(../../../../Images/yellow-pixel.png) repeat;
+
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: #fff;
+        background: url(../../../../Images/blue-pixel.png) repeat;
+    }
+}
+
+.banner-rside-prem {
+    font-family: arial;
+    font-size: 13px;
+
+    display: flex;
+
+    width: 105px;
+    height: 30px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: #404041;
+    background: url(../../../../Images/yellow-pixel.png) repeat;
+
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: #56cacc;
+        background: #fff;
+    }
+}
+
+.cover-video-container {
+    position: relative;
+
+    overflow: hidden;
+
+    height: 213px;
+}
+
+.banner-video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    top: -160px;
+    left: 0;
+
+    width: 100%;
+    /*half strechded value*/
+    height: 635px;
+    /*original image 213 + scaled value*/
+
+    cursor: pointer;
+}
+
+.banner-video-play {
+    margin-top: 60px;
+    margin-right: 190px;
+
+    cursor: pointer;
+
+    opacity: 0.7;
+
+    &:hover {
+        opacity: 1;
+    }
+}

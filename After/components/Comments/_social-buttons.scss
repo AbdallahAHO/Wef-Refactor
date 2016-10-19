@@ -1,0 +1,44 @@
+.wf-social-buttons {
+     position: relative;
+     padding: 5px;
+     padding-left: 10px;
+     color: white;
+     background-color:#23272d;
+
+     div{
+          display: inline-block;
+          vertical-align: middle;
+     }
+
+
+     a {
+          position: relative;
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          
+     }
+
+     i {
+          font-size: 16px;
+          margin-right: 0px;
+          display: inline-block;
+          vertical-align: baseline;
+     }
+}
+
+
+.wf-social-buttons--likes{
+     margin-right: 8px;
+}
+
+
+.wf-social-buttons--comments{
+     margin-right: 8px;
+}
+
+
+.wf-social-buttons--share{
+
+     div {margin-right: 12px;}
+}

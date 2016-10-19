@@ -1,0 +1,33 @@
+.wf-post-edit{
+    position: relative;
+    padding: 5px;
+    border: 1px solid #bdc8d1;
+    background-color: #717171;
+}
+
+.wf-post-edit textarea {
+	background-color: #e7e6e6;
+    resize: none;
+    border-width: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.wf-post-edit  {
+	.input-addbtn{
+	    display: block;
+	    max-width: 50%;
+	    margin: 0;
+	    margin-left: 10px;
+	    padding: 6px;
+	    text-align: center;
+	    color: #fff;
+	    border: solid 0;
+	    background-color: #56cacc;
+	    font-size: 14px;
+	    float: left;
+    }
+
+}

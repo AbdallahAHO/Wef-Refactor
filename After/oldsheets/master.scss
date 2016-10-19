@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/********** QPIX STYLESHEET ***********
+
+version:   3.0 
+date:      21/10/14 
+author:    [qpix solutions] 
+email:     [info@qpixsolutions.com] 
+website:   [www.qpixsolutions.com] 
+
+*************************************/
+
+@import "master/_embeddedfonts";
+@import "master/_htmltagspref";
+@import "master/_loadingpanel";
+
+@import "master/_header";
+@import "master/_header-notification";
+@import "master/_footer";
+@import "master/_talentboardbanner";
+@import "master/body/body";
+@import "master/_profile-event";
+@import "master/_userabout";
+@import "master/_home";
+@import "master/_signup";
+@import "master/_searchresults";
+@import "master/_faq";
+
+@import "master/_projects";
+@import "master/_projects-single";
+@import "master/_projects-create";
+
+@import "master/_fanprofile";
+@import "master/_premium";
+@import "master/_404";
+@import "master/_landingpage";
+@import "master/_modalpanel";
+@import "master/_messages";
+@import "master/_mediaqueries";
+@import "master/_commonclasses";
+@import "master/_needscleaning";

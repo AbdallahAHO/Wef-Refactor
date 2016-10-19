@@ -1,0 +1,357 @@
+/****** COMMON CLASSES ******/
+.pl {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+
+    overflow: hidden;
+
+    width: 1px;
+    height: 1px;
+}
+
+
+.fC {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.c {
+    clear: both;
+}
+
+.taL {
+    text-align: left;
+}
+
+.taR {
+    text-align: right;
+}
+
+.taC {
+    text-align: center;
+}
+
+.taJ {
+    text-align: justify;
+}
+
+.fs9 {
+    font-size: 9px;
+}
+
+.bgN {
+    background: none;
+}
+
+.bgIH {
+    background: inherit;
+}
+
+.bg1 {
+    background: url(../../../../Images/mnb-2.png) no-repeat;
+}
+
+.bg2 {
+    background: url(../../../../Images/mnb-1.png) no-repeat;
+}
+
+.bg3 {
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.bg6 {
+    background: #fff;
+}
+
+.cIH {
+    color: inherit;
+}
+
+.c1 {
+    color: #ffffff;
+}
+
+.c2 {
+    color: #000000;
+}
+
+.crD {
+    cursor: default;
+}
+
+.crN {
+    cursor: none;
+}
+
+.crA {
+    cursor: auto;
+}
+
+.crH {
+    cursor: help;
+}
+
+.crC {
+    cursor: crosshair;
+}
+
+.crT {
+    cursor: text;
+}
+
+.crW {
+    cursor: wait;
+}
+
+.crP {
+    cursor: pointer;
+}
+
+.dN {
+    display: none;
+}
+
+.dI {
+    display: inline;
+}
+
+.dB {
+    display: block;
+}
+
+.dL {
+    display: list-item;
+}
+
+.dIB {
+    display: inline-block;
+}
+
+.dIH {
+    display: inherit;
+}
+
+.fw1 {
+    font-weight: 300;
+}
+
+.fw2 {
+    font-weight: 400;
+}
+
+.fsN {
+    font-style: normal;
+}
+
+.fsI {
+    font-style: italic;
+}
+
+.fsO {
+    font-style: oblique;
+}
+
+.ff1 {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+}
+
+.w1 {
+    width: 100%;
+}
+
+.w2 {
+    width: 90%;
+}
+
+.w3 {
+    width: 80%;
+}
+
+.w4 {
+    width: 75%;
+}
+
+.w5 {
+    width: 60%;
+}
+
+.w6 {
+    width: 50%;
+}
+
+.w7 {
+    width: 40%;
+}
+
+.w8 {
+    width: 33.3333%;
+}
+
+.w9 {
+    width: 25%;
+}
+
+.w10 {
+    width: 15%;
+}
+
+.w11 {
+    width: 10%;
+}
+
+.w12 {
+    width: 82%;
+}
+
+.w13 {
+    width: 30.901%;
+}
+
+.h1 {
+    height: 1px;
+}
+
+.ofA {
+    overflow: auto;
+}
+
+.ofH {
+    overflow: hidden;
+}
+
+.ofS {
+    overflow: scroll;
+}
+
+.ofV {
+    overflow: visible;
+}
+
+.pIH {
+    position: inherit;
+}
+
+.pA {
+    position: absolute;
+}
+
+.pR {
+    position: relative;
+}
+
+.pS {
+    position: static;
+}
+
+.pF {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.tdN {
+    text-decoration: none;
+}
+
+.tdU {
+    text-decoration: underline;
+}
+
+.ttC {
+    text-transform: capitalize;
+}
+
+.ttU {
+    text-transform: uppercase;
+}
+
+.ttL {
+    text-transform: lowercase;
+}
+
+.ls1 {
+    letter-spacing: 0.01em;
+}
+
+.ls2 {
+    letter-spacing: 0.02em;
+}
+
+.ls3 {
+    letter-spacing: 0.03em;
+}
+
+.ls4 {
+    letter-spacing: 0.04em;
+}
+
+.ws1 {
+    word-spacing: 0.1em;
+}
+
+.ws2 {
+    word-spacing: 0.2em;
+}
+
+.ws3 {
+    word-spacing: 0.3em;
+}
+
+.op1 {
+    opacity: 1;
+}
+
+.btn1 {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+    line-height: 100%;
+
+    display: inline;
+
+    padding: 9px 7px 6px;
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+
+.br5 {
+    border-radius: 5px;
+}
+
+.cPad {
+    padding: 1px 0 0;
+}
+
+.mt1 {
+    margin-top: 3px;
+}
+
+.mlr1 {
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.ml1 {
+    margin-left: 113px !important;
+}
+
+.pl1 {
+    padding-left: 0 !important;
+}
+
+.l1 {
+    left: 120px;
+}
+
+.iwd {
+    width: 111px;
+}
+
+.iwd2 {
+    width: 333px;
+}
+

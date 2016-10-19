@@ -1,0 +1,68 @@
+//Ajax Form Upload
+
+#upload-wrapper {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	background: $AjaxFormUpload--upload-wrapperBG;
+	padding: 50px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	
+	h3 {
+		padding: 0 0 10px 0;
+		margin: 0 0 20px 0;
+		margin-top: -30px;
+		border-bottom: 1px dotted $AjaxFormUpload--h3border-bottom;
+	}
+
+	input[type=file] {
+		padding: 6px;
+		background: $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+	}
+
+	#submit-btn {
+		border: none;
+		padding: 10px;
+		background: $AjaxFormUpload--submit-btnBG;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		color: $white;
+	}
+}
+
+#output {
+	padding: 5px;
+	font-size: 12px;
+}
+
+#progressbox {
+	border: 1px solid $AjaxFormUpload--progressboxandbarborder;
+	padding: 1px;
+	position: relative;
+	width: 400px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	margin: 10px;
+	display: none;
+	text-align: left;
+}
+
+#progressbar {
+	height: 20px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	background-color: $AjaxFormUpload--progressboxandbarborder;
+	width: 1%;
+}
+
+#statustxt {
+	top: 3px;
+	left: 50%;
+	position: absolute;
+	display: inline-block;
+	color: $white;
+}

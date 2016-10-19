@@ -1,0 +1,56 @@
+/*Highlights Sidenav Copyrights*/
+
+.wf-sidebar-footer{
+	display:block;
+	margin-top:40px;
+
+	/*Footer nav*/
+	.wf-sidebar-footer__nav{
+		display:block;
+		margin:0 0 12px;
+		padding:0;
+
+		li{
+			display:inline-block; 
+			list-style: none;
+		    font-size: 12px;
+		    color: #e4e4e4;
+		    line-height: 1.2em;
+		    font-size: 13px;
+
+
+		    border-left: 1px solid #DDDDDD;
+		    padding-left: 10px;
+		    padding-right: 5px;
+
+		    &:first-of-type {
+			    border-left: 0;
+			    padding-left: 0px;
+			}
+			
+			&:last-of-type {
+			    border-left: 0;
+			    padding-left: 0;
+			    padding-right: 0;
+			}
+		
+
+			a:hover {
+			    color: #23527c;
+			    text-decoration: none;
+			}
+
+		    a:link, a:visited {
+			    color: #57cacd;
+			    text-decoration: none;
+			}
+		}
+	}
+
+
+	// /*Copyright notice*/
+	// .wf-sidebar-footer__copyrights{
+		
+	// }
+
+}

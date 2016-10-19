@@ -1,0 +1,21 @@
+.wf-social-buttons {
+     position: relative;
+     padding: 5px;
+     padding-left: 5px;
+     color: white;
+     background-color:#23272d;
+     a {
+          font-size: 10px;
+          position: relative;
+          display: inline-block;
+          padding-right: 5px;
+          text-decoration: none;
+          color: $post-regular--footerfont;
+          i {
+               font-size: 16px;
+               margin-right: 2px;
+               display: inline-block;
+               vertical-align: middle;
+          }
+     }
+}

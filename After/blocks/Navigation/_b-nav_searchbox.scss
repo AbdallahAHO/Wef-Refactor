@@ -1,0 +1,156 @@
+
+input[type="search"]::-ms-clear {
+    /* removes close icon - IE */
+    display: none;
+}
+
+input[type="search"]::-webkit-input-placeholder {
+    color: white;
+}
+
+input[type="search"]::-moz-placeholder {
+    /* Firefox 18- */
+    color: white;
+}
+
+input[type="search"]::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white;
+}
+
+input[type="search"]::-ms-input-placeholder {
+    color: white;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+
+.wf-search {
+    position: absolute;
+    z-index: $above-content;
+    top: $header-S;
+    left: 0;
+
+    visibility: hidden;
+
+    width: 100%;
+    height: $search-height-S;
+
+    -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+       -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
+            transition: opacity 0.3s 0s, visibility 0s 0.3s;
+
+    opacity: 0;
+
+    @include MQ(L) {
+        top: $header-M;
+
+        height: $search-height-M;
+
+        input {
+            font-size: 3.2rem;
+            font-weight: 300;
+            line-height: normal;
+            padding: 0 2em;
+
+            @include placeholder {}
+        }
+    }
+
+    form {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    input {
+        width: 100%;
+        height: 100%;
+        padding: 0 5%;
+
+        color: white;
+        border: none;
+        border-radius: 0;
+        background: $input-background;
+        box-shadow: inset 0 1px 0 $color-3, 0 3px 6px rgba(#000000, 0.05);
+
+        @include appearance(none);
+        @include placeholder {
+            color: white;
+        }
+
+        &:focus {
+            color: white;
+            outline: none;
+        }
+    }
+
+    &.is-visible {
+        visibility: visible;
+
+        -webkit-transition: opacity 0.3s 0s, visibility 0s 0s;
+           -moz-transition: opacity 0.3s 0s, visibility 0s 0s;
+                transition: opacity 0.3s 0s, visibility 0s 0s;
+
+        opacity: 1;
+    }
+
+    .nav-is-fixed & {
+        position: fixed;
+    }
+}
+
+
+
+
+
+.wf-overlay {
+    /* shadow layer visible when navigation is active */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    visibility: hidden;
+
+    width: 100vw;
+    height: 100vh;
+
+    cursor: pointer;
+
+    opacity: 0;
+    background-color: rgba($overlay-background, 0.8);
+
+    @include backface-visibility(hidden);
+    @include transition(opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s);
+    @include MQ(maxL) {
+        &.is-visible {
+            @include transform(translateX(0));
+        }
+
+        &.is-visible.search-is-visible,
+        .nav-on-left &.is-visible.search-is-visible {
+            @include transform(translateX(0));
+        }
+    }
+
+    &.is-visible {
+        visibility: visible;
+
+        opacity: 1;
+
+        @include transition(opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s);
+    }
+}
+
+
+.stop-scrolling {
+    overflow: hidden;
+
+    height: 100%;
+}

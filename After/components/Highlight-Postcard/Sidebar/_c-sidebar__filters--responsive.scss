@@ -1,0 +1,31 @@
+.wf-sidebar__isotopefilters--responsive{
+
+	ul{
+		display: table;
+    	width: 100%;
+		padding: 0px;
+
+		li{
+			display: inline-block;
+			text-align: center;
+		    font-size: 14px;
+		    font-style: normal;
+		    cursor: pointer;
+		    color: #323340;
+
+		    border-bottom: solid 8px #777;
+		    display: table-cell;
+		    padding-bottom: 6px;
+
+		        width: 10%;
+
+
+			&.active{
+				border-bottom: solid 8px #56CACC;
+				&:after {
+					background-color: #56CACC;
+				}
+			}
+		}
+	}
+}

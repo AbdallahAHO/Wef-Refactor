@@ -1,0 +1,111 @@
+.wf-comment-block{
+     width: 100%;
+     display: block;
+     position:relative;
+     padding: 0px;
+     overflow: auto;
+     max-height: 160px;
+}
+
+
+.wf-comment{
+    border-bottom: 1px solid #F1F1F1;
+}
+
+
+$comment-regular--headerBG: #ffffff;
+$comment-regular--headerURLs:#56cacc;
+$comment-regular--headerURLs-hover:#24b3b5;
+$comment-regular--headerURLs-visited:#57cacd;
+$comment-regular--headerText:#404041;
+$comment-regular--headerTime:#aaa;
+$comment-regular--border: rgba(86, 202, 204, 0.65);
+$comment-regular--avatarborder: #aaaaaa;
+
+
+//parent div
+.wf-comment--header {
+     display: inline-block;
+     padding: 5px 0px 5px 5px;
+     max-width: 155px;
+     min-width: 125px;
+}
+
+//Avatar
+.wf-comment--header__avatar {
+     display: inline-block;
+     vertical-align: middle;
+     img {
+          display: block;
+          overflow: hidden;
+          width: 30px;
+          height: 30px;
+          border: solid 2px $comment-regular--avatarborder;
+          border-radius: 50%;
+     }
+}
+
+//Text
+.wf-comment--header__text {
+     font-size: 12px;
+     font-weight: 200;
+     line-height: 1.2em;
+     display: inline-block;
+     vertical-align: middle;
+     overflow: hidden;
+     max-width: 80%;
+     max-height: 3.8em;
+     padding: 0px 0 0 10px;
+     color: $comment-regular--headerText;
+     .user-name {
+          color: $comment-regular--headerURLs;
+          &:hover {
+               color: $comment-regular--headerURLs-hover;
+          }
+          &:link,
+          &:visited {
+               text-decoration: none;
+               color: $comment-regular--headerURLs-visited;
+          }
+     }
+     //Time Stamp
+     time.timeago {
+          font-size: 10px;
+          display: inline-block;
+          margin-bottom: 0;
+          color: $comment-regular--headerTime;
+     }
+}
+
+
+//dropdown
+.wf-comment--header__dropdown {
+     position: absolute;
+     right: 20px;
+     display: none;
+}
+
+.wf-comment:hover .wf-comment--header__dropdown {
+    display: block;
+}
+
+
+
+
+.wf-comment--content__text {
+    font-size: 14px;
+    line-height: normal;
+
+    position: relative;
+
+    display: inline-block;
+    vertical-align: bottom;
+
+    max-width: 100%;
+    padding: 10px;
+
+    color:black;
+    word-wrap: break-word;
+
+}
+

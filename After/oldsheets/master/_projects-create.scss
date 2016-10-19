@@ -1,0 +1,36 @@
+/******************************* CREATE PROJECT PAGE *************************************/
+.create-proj-form {
+    float: left;
+
+    input {
+        display: block;
+
+        margin: 15px 0 25px 0;
+    }
+
+    textarea {
+        display: block;
+
+        width: 560px;
+        height: 160px;
+        margin: 25px 0;
+    }
+
+    .confirm-btn {
+        height: 42px;
+        margin: 20px 20px 20px 0;
+        padding-top: 0;
+    }
+}
+
+.proj-drop-files {
+    float: left;
+
+    width: 350px !important;
+    margin: 25px 0 0 30px;
+}
+
+.create-project-input-dropzone {
+    width: 340px;
+    height: 400px;
+}

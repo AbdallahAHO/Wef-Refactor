@@ -1,0 +1,1140 @@
+
+/************************************   BODY   ************************************/
+.wrapper {
+    position: relative;
+    z-index: 5;
+
+    opacity: 0;
+}
+
+.body-wrap {
+    width: 1030px;
+    min-height: 65px;
+}
+
+div#feedTemp + .body-wrap.fC {
+    min-height: 100%;
+}
+
+.banner-wrapper.fC + .c + {
+    .body-wrap.fC .body-wrap.fC,
+    br + .body-wrap.fC .body-wrap.fC,
+    .body-wrap.fC {
+        min-height: 100%;
+    }
+}
+
+.femaleAttr .body-wrap {
+    float: left;
+
+    width: 70%;
+    min-height: 100%;
+    margin-bottom: 15px !important;
+}
+
+.body-nav-wrap {
+    font-size: 14px;
+
+    width: 100%;
+    padding: 15px 0 0;
+}
+
+
+
+.body-views {
+    line-height: 22px;
+
+    display: flex;
+
+    margin-bottom: 15px;
+
+    align-items: center;
+
+    img {
+        margin: -4px 5px 0 10px;
+    }
+}
+
+.body-nav {
+    li {
+        line-height: 22px;
+
+        display: inline;
+
+        margin-right: 10px;
+
+        list-style: none;
+    }
+
+    a {
+        &:link,
+        &:visited {
+            color: #000;
+        }
+
+        &:hover {
+            color: #50b1c5;
+        }
+    }
+}
+
+.body-nav-current {
+    color: #50b1c5;
+}
+
+#newPost {
+    position: relative;
+}
+
+.wall-event-input-box {
+    position: relative;
+
+    width: 338px;
+    height: 105px;
+
+    border: 1px solid #bdc8d1;
+}
+
+.home-main .wall-event-input-dropzone {
+    right: 0 !important;
+    left: auto;
+}
+
+.wall-event-input {
+    font-size: 14px;
+
+    width: 288px;
+    height: 50px;
+    margin: 0;
+    padding: 10px 5px;
+
+    border: medium none;
+}
+
+.testimonial-wall-event-input-box {
+    width: 250px;
+    height: 125px;
+    margin: 20px 0;
+
+    border: 1px solid #bdc8d1;
+    background: #fff;
+}
+
+.testimonial-wall-event-input {
+    font-size: 16px;
+
+    width: 210px;
+    height: 80px;
+    margin: 10px 0 0 0;
+    padding: 0;
+
+    border: none;
+}
+
+.testimonial-addbtn {
+    font-size: 12px;
+    font-weight: 300;
+
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+
+    display: flex;
+
+    width: 100px;
+    height: 30px;
+
+    color: #23272d;
+    background: #48dde7;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-wall-event-input {
+    &:focus,
+    &:hover {
+        border: none;
+    }
+}
+
+.wall-event-input {
+    &:focus,
+    &:hover {
+        border: none;
+    }
+}
+
+.body-wall-post {
+    position: relative;
+
+    width: 340px;
+    height: 210px;
+    margin: 10px 10px 0 0;
+
+    background: url(../../../../Images/e7f7f6.png) repeat;
+}
+
+.body-wall-post-like-share {
+    margin: 10px 7px 20px 0;
+}
+
+.body-wall-post-text {
+    font-size: 21px;
+    line-height: 30px;
+
+    overflow: auto;
+
+    width: 95%;
+    height: 171px;
+    margin-left: 15px;
+
+    color: #191919;
+
+    img {
+        width: 301px;
+        height: auto;
+        margin-top: 0;
+    }
+}
+
+.body-wall-bottom {
+    font-size: 20px;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 40px;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.body-wall-post-date {
+    margin-top: 13px;
+    padding-left: 15px;
+}
+
+.body-wall-post-comment {
+    margin-top: 13px;
+    padding-right: 15px;
+
+    img {
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+
+    &.fR img.fL {
+        &[alt="Like"],
+        &[alt="Share"] {
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/* Talent Board Calendar And Eventslist */
+.body-calendar-wrap {
+    width: 675px;
+    margin-right: 5px;
+}
+
+.body-calendar {
+    font-size: 14px;
+
+    width: 300px;
+    height: 298px;
+    padding: 30px 20px 0 20px;
+
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.logbook-calendar {
+    width: 260px;
+    height: 250px;
+}
+
+.body-calendar a {
+    &:link,
+    &:visited {
+        color: #fff;
+    }
+}
+
+.ui-datepicker table {
+    width: 100%;
+}
+
+.ui-datepicker-header {
+    font-size: 24px;
+
+    margin-bottom: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    line-height: 600%;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 25px;
+    height: 25px;
+
+    cursor: pointer;
+
+    background-image: url("../../../../Images/calendar-arrow.png");
+    background-repeat: no-repeat;
+}
+
+.ui-datepicker-prev {
+    float: left;
+
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker {
+    thead {
+        font-size: 11px;
+
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    tbody td {
+        padding: 10px;
+    }
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    color: #fff;
+}
+
+.ui-datepicker-calendar {
+    .ui-state-hover,
+    .ui-state-active {
+        color: #fff;
+    }
+}
+
+.body-calendar-eventlist {
+    font-size: 14px;
+
+    width: 334px;
+    height: 328px;
+
+    border-left: 1px solid #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+
+    td {
+        font-size: 17px;
+        font-weight: 200;
+
+        position: relative;
+
+        height: 54px;
+
+        color: #fff;
+        border-bottom: 1px solid #fff;
+
+        img {
+            position: absolute;
+            top: 14.5px;
+            right: 5px;
+        }
+
+        &:first-child {
+            font-size: 25px;
+
+            width: 70px;
+
+            text-align: center;
+
+            border-right: 1px solid #fff;
+        }
+    }
+}
+
+.body-calendar-eventlist-active {
+    color: #f9e449 !important;
+}
+
+.body-calendar-eventlist td:nth-child(2) {
+    width: 243px;
+    padding-left: 20px;
+
+    text-align: left;
+}
+
+.logbook-eventlist {
+    width: 300px;
+    margin-top: 20px;
+
+    border-left: none;
+}
+
+.datepicker-deadline {
+    font-size: 14px;
+
+    display: none;
+
+    width: 300px;
+    height: 280px;
+    padding: 30px 20px 0;
+
+    color: #fff !important;
+    background: url("../../../../Images/blue-pixel.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 2px #7c7c7c;
+
+    a {
+        color: #fff !important;
+    }
+}
+
+/* End of Talent Board Calendar and Events List*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Scout Slider*/
+.scout-outter-wrap {
+    width: 675px;
+    height: 329px;
+
+    background: url(../../../../Images/d2f1f3.png) repeat;
+}
+
+.scout-arrow {
+    display: flex;
+
+    padding: 150px 20px;
+
+    img {
+        display: flex;
+
+        height: 50px;
+    }
+}
+
+#scout-arrow-prev {
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.scout-inner-wrap {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 545px;
+    height: 329px;
+}
+
+#scout-slider {
+    position: absolute;
+    left: 0;
+
+    height: 327px;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+}
+
+.scout-item {
+    width: 180px;
+    margin-top: 90px;
+
+    text-align: center;
+}
+
+.body-interests {
+    margin-right: 5px;
+}
+
+.body-filter {
+    display: table-cell;
+
+    width: 1025px;
+    height: 40px;
+
+    vertical-align: middle;
+}
+
+.body-filter-mnb {
+    display: none;
+}
+
+.body-filter li {
+    font-size: 18px;
+    font-style: italic;
+
+    display: inline;
+
+    margin-left: 15px;
+
+    color: #323340;
+}
+
+li.body-filter-active {
+    text-decoration: underline;
+
+    color: #4fb0c4;
+}
+
+.body-lside-wrap {
+    width: 340px;
+}
+
+.body-lside-block {
+    clear: both;
+
+    width: 340px;
+    margin-bottom: 10px;
+}
+
+.body-lside-sponser-image {
+    display: block;
+
+    width: 340px;
+}
+
+.body-block-bottom {
+    font-size: 17px;
+
+    display:    -moz-box;
+    display: -webkit-box;
+    display:         box;
+    display: flexbox;
+    display: flex;
+
+    width: 320px;
+    height: 33px;
+    padding: 5px 10px;
+
+    color: #fff;
+    background-color: #23272d;
+
+    align-items: center;
+
+    * {
+        margin-right: 10px;
+    }
+}
+
+.body-lside-block .body-block-bottom div {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.block-sponsor {
+    color: #fff;
+    background-color: #23272d;
+}
+
+.block-skills {
+    background-color: #e7f7f6;
+}
+
+.block-friends {
+    background-color: #d2f1f3;
+}
+
+.block-achieve {
+    line-height: 20px;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.block-icon {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.block-title {
+    font-size: 18px;
+    font-weight: 300;
+
+    margin: 15px 5px;
+}
+
+.block-cont {
+    width: 90%;
+    margin-left: 25px;
+}
+
+.block-skills-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    text-transform: uppercase;
+}
+
+.block-skills-bar {
+    position: relative;
+
+    width: 240px;
+    height: 12px;
+
+    background-color: #fff;
+}
+
+.block-skills-bar-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 12px;
+
+    background-color: #57cacd;
+}
+
+.block-skills-percent {
+    font-size: 14px;
+
+    margin-top: -4px;
+    margin-left: 25px;
+}
+
+.block-skills-bar-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    height: 12px;
+
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.block-skills-percent {
+    font-size: 14px;
+
+    margin-top: -6px;
+    margin-left: 25px;
+}
+
+.block-skills-more {
+    font-size: 14px;
+
+    margin: 10px 0;
+}
+
+.block-friends-img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 18px;
+    margin-left: 18px;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+.block-achieve-cont {
+    position: relative;
+}
+
+.block-achieve-subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+.block-achieve-desc {
+    font-size: 16px;
+    font-weight: lighter;
+    font-weight: 200;
+
+    width: 230px;
+    margin-bottom: 10px;
+}
+
+.block-achieve-edit {
+    font-size: 13px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.body-cont-wrap {
+    width: 686px;
+    margin-left: 0;
+}
+
+.body-cont-block {
+    position: relative;
+
+    width: 333px;
+    min-height: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.body-cont-inner-wrap {
+    position: relative;
+
+    overflow: hidden;
+}
+
+.body-cont-like-abs {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.body-cont-share-abs {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+.body-cont-like-share {
+    margin: 15px 10px -10px 0;
+}
+
+.block-video {
+    background-color: #f9f9f9;
+}
+
+.block-video-preview {
+    display: block;
+
+    width: 100%;
+
+    opacity: 0.6;
+}
+
+.block-video-video-wrap:hover .block-video-preview {
+    opacity: 0.75;
+}
+
+.block-video-play {
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+
+.block-photo {
+    img {
+        display: block;
+    }
+
+    .lightboxable {
+        width: 100%;
+    }
+
+    img:hover {
+        opacity: 0.9;
+    }
+}
+
+
+.testimonial-arrows {
+    position: absolute;
+    z-index: 10;
+    top: 145px;
+}
+
+#testimonial-next {
+    right: 20px;
+}
+
+#testimonial-prev {
+    left: 20px;
+}
+
+
+#testimonial-slider {
+    position: absolute;
+    left: 0;
+
+    height: 250px;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+}
+
+.block-post-like-share {
+    margin: 10px 7px 15px 0;
+}
+
+.block-post-text img {
+    max-width: 100%;
+}
+
+.block-post-text-2 {
+    margin: 45px 0 0;
+}
+
+.lightbox-close {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+
+    position: absolute;
+    z-index: 100;
+    top: 10px;
+    right: 10px;
+
+    padding: 6px 6px 3px;
+
+    cursor: pointer;
+    letter-spacing: 0.03em;
+
+    color: #56cacc;
+    border: 1px solid #d0d0d0;
+    border-radius: 7px;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.lightbox-image-txt .block-post-media {
+    margin: 50px 0 0;
+
+    iframe {
+        width: 70% !important;
+        min-height: 360px;
+    }
+}
+
+.block-project-desc {
+    font-size: 14px;
+
+    margin: 10px 0;
+    padding: 5px;
+
+    color: #191919;
+}
+
+.block-project-desc-target {
+    font-size: 20px;
+
+    margin: 10px 0;
+    padding: 5px;
+
+    color: #191919;
+}
+
+.block-bottom {
+    font-size: 17px;
+
+    width: 100%;
+    height: 40px;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.block-post-date {
+    margin-top: 13px;
+    padding-left: 15px;
+}
+
+.block-post-comment {
+    margin-top: 13px;
+    padding-right: 15px;
+
+    img {
+        margin-top: -4px;
+        margin-right: 10px;
+    }
+}
+
+.body-cont-bottom {
+    font-size: 19px;
+    line-height: 24px;
+
+    position: relative;
+
+    display: flex;
+
+    padding: 0 5px;
+
+    color: #fff;
+    background-color: #23272d;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-cont-block div {
+    font-weight: 200;
+}
+
+.body-cont-top-photoset {
+    z-index: 8;
+
+    width: 100%;
+    height: 46px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    color: #23272d;
+    background-color: #d2f1f3;
+
+    img[alt="Videoset"] {
+        margin-top: 7px;
+    }
+
+    .body-cont-top-userpic img {
+        margin-top: -3px;
+    }
+
+    .body-cont-top-txt.fL {
+        margin-top: -4px;
+    }
+
+    > {
+        img {
+            margin-top: -5px;
+        }
+
+        .fL {
+            margin-top: 0;
+            margin-right: 8px;
+        }
+
+        div.fL {
+            padding-top: 5px;
+        }
+    }
+}
+
+.body-cont-top-userpic {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.main-cont .body-cont-top-txt {
+    width: 153px;
+}
+
+.body-cont-wrap .body-cont-top-txt {
+    width: 220px;
+}
+
+.body-cont-top-txt span {
+    font-weight: 200;
+
+    color: #404041;
+}
+
+
+.body-cont-bottom-right {
+    display:    -moz-box;
+    display: -webkit-box;
+    display:         box;
+    display: flexbox;
+    display: flex;
+
+    align-items: center;
+}
+
+.body-cont-bottom-left {
+    display: flex;
+
+    align-items: center;
+}
+
+.block-photoset .body-cont-bottom {
+    color: #23272d;
+    background-color: #d2f1f3;
+}
+
+.block-photo {
+    .body-cont-bottom {
+        color: #23272d;
+        background: url(../../../../Images/yellow-pixel.png) repeat;
+    }
+
+    .body-cont-top {
+        color: #fff;
+        background: #f6e03c;
+    }
+}
+
+.block-video .body-cont-top {
+    background: rgba(35, 49, 45, 0.8);
+}
+
+.block-post .body-cont-bottom {
+    color: #fff;
+    background-color: #57cacd;
+}
+
+.block-video .body-cont-top-txt {
+    color: #fff;
+
+    span {
+        color: #dbdbdb;
+    }
+}
+
+.block-photoset-left,
+.block-photoset-right {
+    overflow: hidden;
+
+    width: 110px;
+    height: 76px;
+
+    border-bottom: 1px solid #fff;
+}
+
+.block-photoset-top {
+    overflow: hidden;
+
+    width: 110px;
+    height: 76px;
+
+    border: 1px solid #fff;
+    border-top-style: none;
+    border-bottom: 1px solid #fff;
+}
+
+.block-photoset-center {
+    clear: both;
+    overflow: hidden;
+
+    width: 333px;
+    height: 156px;
+}
+
+.block-photoset img:hover {
+    opacity: 0.9;
+}
+
+.body-load-more {
+    font-size: 17px;
+
+    width: 160px;
+    margin: 30px auto;
+    padding: 15px;
+
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #23272d;
+    border: 1px solid #23272d;
+    border-radius: 2px;
+}
+
+.Chat.draggable .body-load-more.fC.ttU {
+    font-size: 10px;
+
+    width: 50%;
+    height: 15px;
+    padding: 2px;
+}
+
+.main-cont {
+    .body-cont-block {
+        width: 220px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .body-cont-bottom {
+        font-size: 12px;
+
+        width: 220px;
+        height: 30px;
+        padding: 0;
+
+        img {
+            height: 15px;
+        }
+    }
+
+    .block-post {
+        .block-post-text {
+            font-size: 16px;
+        }
+
+        .block-bottom {
+            font-size: 12px;
+
+            width: 220px;
+            height: 25px;
+            padding-top: 0;
+
+            img {
+                height: 15px;
+                margin-top: 0;
+            }
+        }
+
+        .block-post-date,
+        .block-post-comment {
+            margin-top: 5px;
+        }
+    }
+
+    .block-photoset-top {
+        margin-left: -2px;
+    }
+
+    .block-photoset-center {
+        width: 100%;
+    }
+
+
+
+    .block-video-play {
+        position: absolute;
+        top: 40%;
+        left: 44%;
+    }
+}
+
+
+
+
+
+
+
+

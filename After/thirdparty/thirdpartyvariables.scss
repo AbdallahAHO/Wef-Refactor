@@ -1,0 +1,149 @@
+//AjaxFormUpload variables
+	$AjaxFormUpload--upload-wrapperBG: #3d91a2;
+	$AjaxFormUpload--h3border-bottom: #ddd;
+	$AjaxFormUpload--submit-btnBG: #61bae4;
+	$AjaxFormUpload--progressboxandbarborder: #caf2ff;
+
+//bubbletip-url
+	//colors
+	$white: #fff;
+
+	//urls
+	$bubbletip-url_0: url('img/bubbletip.png');
+	$bubbletip-url_1: url('img/bubbletip-T-B.png');
+	$bubbletip-url_2: url('img/bubbletip-L-R.png');
+	$bubbletip-ie-url_0: url('img/bubbletip-TL-corner.png');
+	$bubbletip-ie-url_1: url('img/bubbletip-T.png');
+	$bubbletip-ie-url_2: url('img/bubbletip-TR-corner.png');
+	$bubbletip-ie-url_3: url('img/bubbletip-L.png');
+	$bubbletip-ie-url_4: url('img/bubbletip-L-tail.png');
+	$bubbletip-ie-url_5: url('img/bubbletip-R.png');
+	$bubbletip-ie-url_6: url('img/bubbletip-R-tail.png');
+	$bubbletip-ie-url_7: url('img/bubbletip-BL-corner.png');
+	$bubbletip-ie-url_8: url('img/bubbletip-B.png');
+	$bubbletip-ie-url_9: url('img/bubbletip-BR-corner.png');
+	$bubbletip-ie-url_10: url('img/bubbletip-T-tail.png');
+	$bubbletip-ie-url_11: url('img/bubbletip-B-tail.png');
+
+//tagsinput
+	$tagsinput-maindivborder: #ccc;
+	$tagsinput-maindivBG: #fff;
+
+	$tagsinput-inputtextcolor: #000;
+	$tagsinput-notvalidBG: #fbd8db;
+	$tagsinput-notvalidtext: #90111a;
+
+	$tagsinput-tagspanborder: #a5d24a;
+	$tagsinput-tagspanBG: #cde69c;
+	$tagsinput-tagspantext: #638421;
+	$tagsinput-tagspanhyperlink: #82ad2b;
+
+//ColorBox
+
+	//colors
+	$colorbox-cboxOverlayBG: #000;
+	$colorbox-cboxContentBG: #fff;
+	$colorbox-cboxErrorBorder: #ccc;
+	$colorbox-cboxTitleText: #7c7c7c;
+
+	//urls
+	$imgcolorboxcontrols: url('img/controls.png');
+	$imgcolorboxborder: url('img/border.png');
+	$imgcolorboxloadingbackground: url('img/loading_background.png');
+	$imgcolorboxloadingGIF: url('img/loading.gif');
+
+	//@extend-elements
+	//original selectors
+	//#colorbox, #cboxOverlay, #cboxWrapper
+	%colorboxWrapper {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        z-index: 9999;
+	        overflow: hidden;
+	}
+
+	//original selectors
+	//#cboxLoadingOverlay, #cboxLoadingGraphic
+	%cboxLoadingOverlay {
+	        position: absolute;
+	        top: 0;
+	        left: 0;
+	        width: 100%;
+	        height: 100%;
+	}
+	
+	//original selectors
+	//#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose
+	%colorboxcontrols {
+	        border: 0;
+	        padding: 0;
+	        margin: 0;
+	        overflow: visible;
+	        position: absolute;
+	        bottom: -29px;
+	        background: $imgcolorboxcontrols no-repeat 0 0;
+	        width: 23px;
+	        height: 23px;
+	        text-indent: -9999px;
+	}
+
+//jquery.fancybox
+
+	// colors
+	$fancybox-skinBG: #f9f9f9;
+	$fancybox-skinText: #444;
+	$fancybox-skin--boxshadow: rgba(0, 0, 0, 0.5);
+	$fancybox-title--childBG: rgba(0, 0, 0, 0.8);
+	$fancybox-title--childtextshadow: #222;
+	$fancybox-title--textcolor: #fff;
+	$fancybox-titleBG: #000;
+	$fancybox-titleBGtransparent: rgba(0, 0, 0, .8);
+
+	// fonts
+	$fancybox-font_0: Helvetica Neue;
+	$fancybox-font_1: Helvetica;
+	$fancybox-font_2: Arial;
+	$fancybox-font_3: sans-serif;
+
+	// urls
+	$fancybox-url-sprite: url('img/fancybox_sprite.png');
+	$fancybox-url-loadingGIF: url('img/fancybox_loading.gif');
+	$fancybox-url-blankGIF: url('img/blank.gif');
+	$fancybox-url-overlayBG: url('img/fancybox_overlay.png');
+	$fancybox-url-sprite2X: url('img/fancybox_sprite@2x.png');
+	$fancybox-url-loadingGIF2X: url('img/fancybox_loading@2x.gif');
+
+	// @extend-elements
+	// original selectors
+	// .fancybox-wrap, .fancybox-skin, .fancybox-outer, .fancybox-inner, .fancybox-image, .fancybox-wrap iframe, .fancybox-wrap object, .fancybox-nav, .fancybox-nav span, .fancybox-tmp
+	%fancybox-extend--reset {
+	  padding: 0;
+	  margin: 0;
+	  border: 0;
+	  outline: none;
+	  vertical-align: top;
+	}
+
+	// original selectors
+	// .fancybox-image, .fancybox-iframe
+	%fancybox-extend--widthheightfill {
+	  display: block;
+	  width: 100%;
+	  height: 100%;
+	} 
+
+//jquery.Jcrop
+	// colors
+	$Jcrop-white: #fff;
+	$Jcrop-handleBG: #333;
+	$Jcrop-handle-Border: #eee;
+	$Jcrop-black: #000;
+
+	// urls
+	$Jcrop-url-jcropGIF: url('img/Jcrop.gif');
+
+//chosen
+	//urls
+	$chosen-url-sprite: url('img/chosen-sprite.png');
+	$chosen-url-sprite-retina: url('img/chosen-sprite@2x.png'); 

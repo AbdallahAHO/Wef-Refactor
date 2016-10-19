@@ -1,0 +1,291 @@
+.fancybox-wrap {
+  @extend %fancybox-extend--reset;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8020;
+
+  iframe {
+    @extend %fancybox-extend--reset;
+  }
+
+  object {
+    @extend %fancybox-extend--reset;
+  }
+}
+
+.fancybox-skin {
+  @extend %fancybox-extend--reset;
+  position: relative;
+  background: $fancybox-skinBG;
+  color: $fancybox-skinText;
+
+  // Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  text-shadow: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+
+  // Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 4px;
+}
+
+.fancybox-outer {
+  @extend %fancybox-extend--reset;
+  position: relative;
+}
+
+.fancybox-inner {
+  @extend %fancybox-extend--reset;
+  position: relative;
+  overflow: hidden;
+}
+
+.fancybox-image {
+  @extend %fancybox-extend--reset;
+  @extend %fancybox-extend--widthheightfill;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.fancybox-nav {
+  @extend %fancybox-extend--reset;
+  position: absolute;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent $fancybox-url-blankGIF;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  z-index: 8040;
+
+  span {
+    @extend %fancybox-extend--reset;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 34px;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 8040;
+    visibility: hidden;
+  }
+
+  &:hover span {
+    visibility: visible;
+  }
+}
+
+.fancybox-tmp {
+  @extend %fancybox-extend--reset;
+  position: absolute;
+  top: -99999px;
+  left: -99999px;
+  visibility: hidden;
+  max-width: 99999px;
+  max-height: 99999px;
+  overflow: visible !important;
+}
+
+.fancybox-opened {
+  z-index: 8030;
+
+  .fancybox-skin {
+    -webkit-box-shadow: 0 10px 25px $fancybox-skin--boxshadow;
+    -moz-box-shadow: 0 10px 25px $fancybox-skin--boxshadow;
+
+    // Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 10px 25px $fancybox-skin--boxshadow;
+  }
+
+  .fancybox-title {
+    visibility: visible;
+  }
+}
+
+.fancybox-error {
+  color: $fancybox-skinText;
+  font: 14px/20px $fancybox-font_0, $fancybox-font_1, $fancybox-font_2, $fancybox-font_3;
+  margin: 0;
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.fancybox-iframe {
+  @extend %fancybox-extend--widthheightfill;
+}
+
+#fancybox-loading {
+  background-image: $fancybox-url-sprite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -22px;
+  margin-left: -22px;
+  background-position: 0 -108px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 8060;
+
+  div {
+    width: 44px;
+    height: 44px;
+    background: $fancybox-url-loadingGIF center center no-repeat;
+  }
+}
+
+.fancybox-close {
+  background-image: $fancybox-url-sprite;
+  position: absolute;
+  top: -18px;
+  right: -18px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  z-index: 8040;
+}
+
+.fancybox-prev {
+  left: 0;
+
+  span {
+    background-image: $fancybox-url-sprite;
+    left: 10px;
+    background-position: 0 -36px;
+  }
+}
+
+.fancybox-next {
+  right: 0;
+
+  span {
+    background-image: $fancybox-url-sprite;
+    right: 10px;
+    background-position: 0 -72px;
+  }
+}
+
+.fancybox-lock {
+  overflow: hidden !important;
+  width: auto;
+
+  body {
+    overflow: hidden !important;
+  }
+
+  .fancybox-overlay {
+    overflow: auto;
+    overflow-y: scroll;
+  }
+}
+
+.fancybox-lock-test {
+  overflow-y: hidden !important;
+}
+
+.fancybox-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  z-index: 8010;
+  background: $fancybox-url-overlayBG;
+}
+
+.fancybox-overlay-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.fancybox-title {
+  visibility: hidden;
+  font: normal 13px/20px $fancybox-font_0, $fancybox-font_1, $fancybox-font_2, $fancybox-font_3;
+  position: relative;
+
+  // Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  text-shadow: none;
+  z-index: 8050;
+}
+
+.fancybox-title-float-wrap {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-bottom: -35px;
+  z-index: 8050;
+  text-align: center;
+
+  .child {
+    display: inline-block;
+    margin-right: -100%;
+    padding: 2px 20px;
+    background: transparent;
+    background: $fancybox-title--childBG;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+
+    // Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 15px;
+
+    // Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    text-shadow: 0 1px 2px $fancybox-title--childtextshadow;
+    color: $fancybox-title--textcolor;
+    font-weight: bold;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+}
+
+.fancybox-title-outside-wrap {
+  position: relative;
+  margin-top: 10px;
+  color: $fancybox-title--textcolor;
+}
+
+.fancybox-title-inside-wrap {
+  padding-top: 10px;
+}
+
+.fancybox-title-over-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: $fancybox-title--textcolor;
+  padding: 10px;
+  background: $fancybox-titleBG;
+  background: $fancybox-titleBGtransparent;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  #fancybox-loading {
+    background-image: $fancybox-url-sprite2X;
+    background-size: 44px 152px;
+
+    div {
+      background-image: $fancybox-url-loadingGIF2X;
+      background-size: 24px 24px;
+    }
+  }
+
+  .fancybox-close {
+    background-image: $fancybox-url-sprite2X;
+    background-size: 44px 152px;
+  }
+
+  .fancybox-prev span {
+    background-image: $fancybox-url-sprite2X;
+    background-size: 44px 152px;
+  }
+
+  .fancybox-next span {
+    background-image: $fancybox-url-sprite2X;
+    background-size: 44px 152px;
+  }
+}
+
+.fancybox-type-iframe .fancybox-inner {
+  -webkit-overflow-scrolling: touch;
+}
+

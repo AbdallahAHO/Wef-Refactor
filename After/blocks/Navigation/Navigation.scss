@@ -1,0 +1,16 @@
+/* 1. Header & Navigation */
+
+@import "../../utils/mixins/_layout.scss"; // responsive media queries mixins
+
+//Global Variables
+@import "b-nav_variables.scss";
+
+
+	/* 1.1 Header */
+	@import "_b-nav";
+
+	/* 1.2 Navigation */
+	@import "_b-nav_sidemenu";
+
+	/* 1.3 Search / #search */
+	@import "_b-nav_searchbox";

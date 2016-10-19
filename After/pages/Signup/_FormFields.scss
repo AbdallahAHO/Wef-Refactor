@@ -1,0 +1,46 @@
+.wf-signup--profiletype{
+  label
+  {margin-right:5px}
+}
+
+
+
+.warning-block{
+
+
+    .field-validation-error {
+        font-size: 14px;
+        line-height: 17px;
+        position: relative;
+        display: block;
+        width: auto;
+        min-width: 150px;
+        max-width: 288px;
+        margin: 0;
+        padding: 5px 10px 5px;
+        text-align: center;
+        color: #fff;
+        background-color: #ff0a0a !important;
+    }
+}
+
+
+.radio-btn input[type=radio]:not(old) {
+  float: left;
+  margin: 0;
+  padding: 0;
+  opacity: 0; }
+  .radio-btn input[type=radio]:not(old) + label {
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    float: left;
+    margin: 25px 10px 0 -28px;
+    margin-left: -28px;
+    padding-right: 25px;
+    padding-left: 28px;
+    cursor: pointer;
+    color: #7c7b7b;
+    background: url("../../../../Images/checkbox-inactive.png") no-repeat 0 0; }
+  .radio-btn input[type=radio]:not(old):checked + label {
+    background: url("../../../../Images/checkbox-active.png") no-repeat 0 0; }

@@ -1,0 +1,61 @@
+//For responsive usage across stylesheets
+//Abdallah Hassan - 14:08 - Oct 10 -15
+
+
+// breakpoints
+   
+$S:     480px;   
+$M:     768px;     
+$L:     1170px;
+$maxL:    $L - 1px;     
+
+// Media queries mixins
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; } 
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; } 
+  }
+  @else if $canvas == maxL {
+   @media only screen and (max-width: $maxL) { @content; } 
+  }
+}
+
+// center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy) {
+  @if $xy == xy {
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    @include transform(translateX(-50%) translateY(-50%));
+  }
+  @else if $xy == x {
+    left: 50%;
+    right: auto;
+    @include transform(translateX(-50%));
+  }
+  @else if $xy == y {
+    top: 50%;
+    bottom: auto;
+    @include transform(translateY(-50%));
+  }
+}
+
+@mixin border-radius($radius:.25em) {
+  border-radius: $radius;
+}
+
+
+
+//Bootstrap remove col padding
+.wf-no-padding {
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}

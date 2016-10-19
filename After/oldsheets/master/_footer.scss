@@ -1,0 +1,82 @@
+/************************************ FOOTER ************************************/
+
+
+.footer-wrapper {
+    position: relative;
+
+    width: 100%;
+    height: auto;
+    height: 100%;
+    margin-top: 50px;
+    padding: 0 0 20px;
+
+    text-align: center;
+
+    background: url("../../../../Images/gray-pixel.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    a {
+        &:link,
+        &:visited {
+            font-family: inherit;
+
+            color: #e4e4e4;
+        }
+
+        &:hover {
+            color: #57cacd;
+        }
+
+        &:link,
+        &:visited {
+            font-size: 12px;
+        }
+    }
+}
+
+.footer-logo {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 28px;
+
+    width: 90%;
+    margin: 0 auto;
+
+    color: #e4e4e4;
+}
+
+
+/*nav*/
+.footer-nav {
+    width: 100%;
+    margin: 0 0 12px;
+}
+
+.footer-qpix {
+    font-size: 12px;
+    line-height: 24px;
+
+    width: 90%;
+    margin: 0 auto;
+
+    color: #e4e4e4;
+}
+
+.footer-totop {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+
+    width: 61px;
+    height: 61px;
+
+    cursor: pointer;
+
+    background: url(../../../../Images/top.png) no-repeat;
+
+    &:hover {
+        background: url(../../../../Images/top-2.png) no-repeat;
+    }
+}

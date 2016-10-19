@@ -1,0 +1,23 @@
+/* 2.1 Highlights Feed Card  */
+
+
+//Global Sass Variables
+@import "cards/c-post-variables.scss";
+	
+	/* Isotop.js Grid and Item Paramaters */
+	@import "cards/_c-post";
+
+	/* Post Input field */
+	@import "_c-inputfield";
+
+	/* 2.1.1 Card Header */
+	@import "cards/_c-post__header";
+
+	/* 2.1.2 Card Footer */
+	@import "cards/_c-post__footer";
+
+	/* 2.1.3 Card Content */
+	@import "cards/_c-post__content";
+
+	/* 2.1.3 Card Content */
+	@import "_c-scrollingloadingdiv";

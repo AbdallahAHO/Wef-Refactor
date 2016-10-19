@@ -1,0 +1,113 @@
+.carousel {
+    height: 463px;
+    background-color: #000;
+}
+
+.carousel-inner > .item {
+    &.active,
+    &.next.left,
+    &.prev.right {
+        display: flex;
+
+        height: 463;
+
+        align-items: center;
+    }
+    > {
+        img,
+        a > img {
+            max-width: 100%;
+            max-height: 463px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .lightbox-image {
+        width: 100%;
+        height: 0px;
+    }
+}
+
+
+//Modal Header
+.wf-modal-header {
+     display: block;
+     padding: 10px 0px 5px 10px;
+     border-bottom: solid 4px $post-regular--border;
+     background-color: $post-regular--headerBG;
+
+     //Avatar
+     .wf-modal-header__avatar {
+          display: inline-block;
+          vertical-align: middle;
+          img {
+               display: block;
+               overflow: hidden;
+               width: 40px;
+               height: 40px;
+               border: solid 2px $post-regular--avatarborder;
+               border-radius: 50%;
+          }
+     }
+
+     //Text
+     .wf-modal-header__text {
+          font-size: 14px;
+          font-weight: 200;
+          line-height: 1em;
+          display: inline-block;
+          vertical-align: middle;
+          overflow: hidden;
+          max-width: 100%;
+          max-height: 3.8em;
+          padding: 5px 0 0 10px;
+          color: $post-regular--headerText;
+          
+          .user-name {
+               color: $post-regular--headerURLs;
+               &:hover {
+                    color: $post-regular--headerURLs-hover;
+               }
+               &:link,
+               &:visited {
+                    text-decoration: none;
+                    color: $post-regular--headerURLs-visited;
+               }
+          }
+
+          //Time Stamp
+          time.timeago {
+               font-size: 10px;
+               display: inline-block;
+               margin-bottom: 0;
+               color: $post-regular--headerTime;
+          }
+     }
+
+     //dropdown
+     .wf-modal-header__dropdown {
+          position: absolute;
+          right: 10px;
+          display: block;
+          font-size:20px;
+     }
+}
+
+
+//Modal Caption Text
+.wf-modal--content__text {
+     font-size: 16px;
+     line-height: normal;
+     position: relative;
+     display: block;
+     max-width: 100%;
+     padding: 10px;
+     color: black;
+     word-wrap: break-word;
+     margin-bottom: 5px;
+
+}
+
+

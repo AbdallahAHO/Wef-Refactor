@@ -1,0 +1,84 @@
+
+.wf-sidebar-suggested{
+	margin: 20px 0px 20px 0px;
+}
+
+.wf-sidebar-suggested__block{
+	border-bottom: solid 1px #ddd;
+	padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.wf-sidebar-suggested__block{
+
+	a {
+	    display: block;
+	    color: #444;
+
+	    &:after{
+	    	content: "\f3d3";
+		    display: inline-block;
+		    font-family: "Ionicons";
+		    font-style: normal;
+		    font-variant: normal;
+		    text-transform: none;
+		    text-rendering: auto;
+		    line-height: 1rem;
+		    -webkit-font-smoothing: antialiased;
+		    float: right;
+		    font-size: 4rem;
+		    margin-top: 18px;
+		    color: rgba(136, 120, 120, 0.4);
+		    min-width: 5%;
+    		max-width: 8%;
+	    }
+	}	
+
+
+	//Avatar
+	.wf-sidebar-suggested__avatar{
+	    display: inline-block;
+
+	    img {
+	        display: block;
+	        overflow: hidden;
+	        float: left;
+
+	        width: 45px;
+    		height: 45px;
+			
+			margin: 0 5px 0 0;
+
+	        border: solid 1px #989393;
+	        border-radius: 50%;
+	    }
+	}
+
+
+	//text block
+	.wf-sidebar-suggested__textblock{
+		@include clearfix;
+		display: inline-block;
+		max-width: 65%;
+		
+		.name{    
+			@include clearfix;
+			display: block;	
+			font-size: 14px;
+			@include word-wrap(normal); //bourbon mixin (http://bourbon.io/docs/#word-wrap)
+			@include ellipsis(100%); //bourbon mixin (http://bourbon.io/docs/#ellipsis)
+			margin-top: 5px;
+    		margin-bottom: -5px;
+		}
+
+		.talent{
+			@include clearfix;
+			display: block;    
+			font-size: 12px;
+			color: rgb(170, 170, 170);
+			@include word-wrap; //bourbon mixin (http://bourbon.io/docs/#word-wrap)
+			@include ellipsis(100%); //bourbon mixin (http://bourbon.io/docs/#ellipsis)
+		}
+	}
+
+}

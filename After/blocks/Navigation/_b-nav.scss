@@ -1,0 +1,375 @@
+//Page main content container
+.wf-main-content {
+
+    /* set a min-height and a z-index to be sure that the main element completely covers the lateral menu */
+
+    /* Force Hardware Acceleration in WebKit */
+    background-color: $body-background;
+}
+
+
+//Header Bar
+header {
+    position: fixed;
+    z-index: $header-zindex;
+    top: 0;
+    left: 0;
+
+    border-bottom: 6px solid #91dcde;
+
+    width: 100%;
+    height: $header-S;
+    /* Force Hardware Acceleration in WebKit */
+
+    color: #777777;
+    background: $header-background;
+
+    @include MQ(M) {
+        height: $header-M;
+    }
+    &.lateral-menu-is-open {
+        /* translate to show the lateral menu */
+    }
+    //assign this class to the header if you want a fixed navigation
+    &.is-fixed {
+        position: fixed;
+    }
+}
+
+
+
+//Logo is set as a background-image for easier responsivity handling
+//The div contain a H1 tag for SEO purposes.
+#wf-logo {
+    display: block;
+    float: left;
+
+    width: 25px;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+    color: #777777;
+    background-image: url(../../../../images/moto.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+
+    @include calc(height, "#{$header-S} - 10px");
+    @include MQ(M) {
+        width: 125px;
+        margin: 0;
+        margin-left: 15px;
+
+        color: #777777;
+        background-image: url(../../../../images/logo.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-position: left;
+        background-size: contain;
+
+        @include calc(height, "#{$header-M} - 5px");
+        a > h1 {
+            font-size: $header-M;
+
+            display: block;
+        }
+    }
+    a {
+        width: 100%;
+
+        color: transparent;
+    }
+    h1 {
+        font-size: $header-S;
+
+        display: block;
+
+        margin: 0;
+    }
+}
+
+
+
+//Navbar toggle on small screens
+.navbar-toggle {
+
+    position: relative;
+
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 15px;
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+    padding: 1px 13px;
+
+    color: #a8a8a8;
+
+    border-left: 1px solid #a8a8a8;
+    border-radius: 0;
+
+    background-color: transparent;
+    background-image: none;
+
+    &:hover {
+        color: #a8a8a8;
+    }
+}
+
+.navbar-collapse {
+    overflow-x: visible;
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-bottom: 6px solid #91dcde;
+    background-color: white;
+
+
+    a {
+        color: #777777;
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+
+
+
+
+#wf-top-nav {
+    position: absolute;
+    top: 0;
+    right: 56px;
+
+    display: inline-block;
+
+    height: 100%;
+
+    @include MQ(M) {
+        right: 60px;
+
+        display: block;
+        .wf-header-button {
+            display: inline-block;
+
+            height: 100%;
+            margin-left: 0;
+            padding-top: 8px;
+            padding-right: 0;
+            padding-bottom: 5px;
+            padding-left: 16px;
+            &:hover {
+                text-decoration: none;
+
+                background-color: none;
+            }
+            .wf-header-buttons {
+                i {
+                    font-size: 120%;
+                }
+            }
+        }
+    }
+
+    a {
+        font-weight: 300;
+
+        display: inline-block;
+
+        text-decoration: none;
+
+        color: #777777;
+        &.current {
+            background-color: $submenu-background;
+        }
+        .no-touch &:hover {
+            color: rgba(#777777, 0.7);
+        }
+    }
+
+    .wf-header-buttons {
+        padding-top: 4px;
+
+        .wf-header-button {
+            display: inline-block;
+
+            height: 100%;
+            margin-left: 0;
+            padding: 0.5em;
+            padding-right: 0.7em;
+            padding-left: 0.2em;
+            &:hover {
+                background-color: none;
+            }
+
+            .dropdown-menu li a {
+                width: 100%;
+
+                text-transform: none;
+            }
+        }
+
+        i {
+            font-size: 26px;
+        }
+
+
+        .wf-messages {
+            .new-message .wf-message--note {
+                font-size: 9px;
+                font-weight: bold;
+                line-height: 1.2em;
+
+                position: absolute;
+                z-index: 2;
+                right: 90px;
+                bottom: 24px;
+
+                display: inline-block;
+
+                padding: 2px 3px;
+
+                color: #ffffff;
+                border-radius: 0;
+                background: #d43711;
+                i {
+                    font-size: 9px;
+                }
+            }
+        }
+
+
+        .wf-notifications {
+            .new-notification .wf-notification_number {
+                font-size: 9px;
+                font-weight: bold;
+                line-height: 1.2em;
+
+                position: absolute;
+                z-index: 2;
+                right: 54px;
+                bottom: 24px;
+
+                display: inline-block;
+
+                padding: 2px 3px;
+
+                color: #ffffff;
+                border-radius: 0;
+                background: #d43711;
+            }
+        }
+
+
+        .wf-user {
+            position: relative;
+            top: -5px;
+
+            display: block;
+
+            width: 28px;
+            height: 28px;
+            padding-left: 2px;
+
+            cursor: pointer;
+
+            border-radius: 100%;
+
+            img {
+                display: inline-block;
+                overflow: hidden;
+
+                width: 28px;
+                height: 28px;
+
+                vertical-align: middle;
+
+                border: solid 2px #777777;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+
+#wf-menu-trigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 50px;
+    height: 100%;
+
+    border-left: solid 1px black;
+    background-color: lighten($header-background, 90%);
+
+    @include MQ(M) {
+        width: 50px;
+        padding-left: 0;
+
+        .wf-menu-icon {
+            right: 1.25em;
+            left: auto;
+
+            @include transform(translateX(0));
+        }
+    }
+
+    .wf-menu-icon {
+        position: absolute;
+        /* this span is the central line in the menu menu */
+
+        display: inline-block;
+
+        width: 18px;
+        height: 2px;
+
+        background-color: black;
+
+        @include center; // mixin inside partials > _mixings.scss
+        /* these are the upper and lower lines in the menu menu */
+        &::before,
+        &:after {
+            position: absolute;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+
+            content: "";
+
+            background-color: inherit;
+        }
+        &::before {
+            bottom: 5px;
+        }
+        &::after {
+            top: 5px;
+        }
+    }
+    &.is-clicked {
+        .wf-menu-icon {
+            background-color: rgba(#777777, 0);
+            &::before,
+            &::after {
+                background-color: rgba(#777777, 1);
+            }
+            &::before {
+                bottom: 0;
+
+                @include transform(rotate(45deg));
+            }
+            &::after {
+                top: 0;
+
+                @include transform(rotate(-45deg));
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+.bubbletip {
+	position: absolute;
+	z-index: 50;
+	border-collapse: collapse;
+	td {
+		&.bt-topleft {
+			background: transparent $bubbletip-url_0 no-repeat scroll 0 0;
+			height: 33px;
+			width: 33px;
+		}
+		&.bt-top {
+			background: transparent $bubbletip-url_1 repeat-x scroll 0 0;
+			height: 33px;
+		}
+		&.bt-topright {
+			background: transparent $bubbletip-url_0 no-repeat scroll -73px 0;
+			height: 33px;
+			width: 33px;
+		}
+		&.bt-left {
+			background: transparent $bubbletip-url_2 repeat-y scroll 0 0;
+			width: 33px;
+		}
+		&.bt-right {
+			background: transparent $bubbletip-url_2 repeat-y scroll -33px 0;
+			width: 33px;
+		}
+		&.bt-bottomleft {
+			background: transparent $bubbletip-url_0 no-repeat scroll 0 -73px;
+			height: 33px;
+			width: 33px;
+		}
+		&.bt-bottom {
+			background: transparent $bubbletip-url_1 repeat-x scroll 0 -33px;
+			height: 33px;
+		}
+		&.bt-bottomright {
+			background: transparent $bubbletip-url_0 no-repeat scroll -73px -73px;
+			height: 33px;
+			width: 33px;
+		}
+		&.bt-content {
+			background-color: $color_0;
+			vertical-align: middle;
+		}
+		&.bt-left-tail div {
+			&.bt-left {
+				background: transparent $bubbletip-url_2 repeat-y scroll 0 0;
+				width: 33px;
+			}
+			&.bt-left-tail {
+				background: transparent $bubbletip-url_0 no-repeat scroll 0 -33px;
+				width: 33px;
+				height: 40px;
+			}
+		}
+		&.bt-right-tail div {
+			&.bt-right {
+				background: transparent $bubbletip-url_2 repeat-y scroll -33px 0;
+				width: 33px;
+			}
+			&.bt-right-tail {
+				background: transparent $bubbletip-url_0 no-repeat scroll -73px -33px;
+				width: 33px;
+				height: 40px;
+			}
+		}
+	}
+	table {
+		&.bt-top {
+			width: 100%;
+			th {
+				width: 50%;
+				background: transparent $bubbletip-url_1 repeat-x scroll 0 0;
+			}
+			td div {
+				background: transparent $bubbletip-url_0 no-repeat scroll -33px 0;
+				width: 40px;
+				height: 33px;
+			}
+		}
+		&.bt-bottom {
+			width: 100%;
+			th {
+				width: 50%;
+				background: transparent $bubbletip-url_1 repeat-x scroll 0 -33px;
+			}
+			td div {
+				background: transparent $bubbletip-url_0 no-repeat scroll -33px -73px;
+				width: 40px;
+				height: 33px;
+			}
+		}
+	}
+}

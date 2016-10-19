@@ -1,0 +1,207 @@
+// @extend-elements
+// original selectors
+// .jcrop-vline, .jcrop-hline
+%Jcrop-extend_1 {
+  background: $Jcrop-white $Jcrop-url-jcropGIF;
+  font-size: 0;
+  position: absolute;
+}
+
+// original selectors
+// .jcrop-light .jcrop-vline, .jcrop-light .jcrop-hline
+%Jcrop-extend_2 {
+  background: $Jcrop-white;
+  filter: alpha(opacity=70) !important;
+  opacity: .70 !important;
+}
+
+// original selectors
+// .jcrop-dark .jcrop-vline, .jcrop-dark .jcrop-hline
+%Jcrop-extend_3 {
+  background: $Jcrop-black;
+  filter: alpha(opacity=70) !important;
+  opacity: 0.7 !important;
+}
+
+.jcrop-holder {
+  direction: ltr;
+  text-align: left;
+
+  img {
+    max-width: none;
+  }
+}
+
+.jcrop-vline {
+  @extend %Jcrop-extend_1;
+  height: 100%;
+  width: 1px !important;
+
+  &.right {
+    right: 0;
+  }
+}
+
+.jcrop-hline {
+  @extend %Jcrop-extend_1;
+  height: 1px !important;
+  width: 100%;
+
+  &.bottom {
+    bottom: 0;
+  }
+}
+
+.jcrop-tracker {
+  height: 100%;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+.jcrop-handle {
+  background-color: $Jcrop-handleBG;
+  border: 1px $Jcrop-handle-Border solid;
+  width: 7px;
+  height: 7px;
+  font-size: 1px;
+
+  &.ord-n {
+    left: 50%;
+    margin-left: -4px;
+    margin-top: -4px;
+    top: 0;
+  }
+
+  &.ord-s {
+    bottom: 0;
+    left: 50%;
+    margin-bottom: -4px;
+    margin-left: -4px;
+  }
+
+  &.ord-e {
+    margin-right: -4px;
+    margin-top: -4px;
+    right: 0;
+    top: 50%;
+  }
+
+  &.ord-w {
+    left: 0;
+    margin-left: -4px;
+    margin-top: -4px;
+    top: 50%;
+  }
+
+  &.ord-nw {
+    left: 0;
+    margin-left: -4px;
+    margin-top: -4px;
+    top: 0;
+  }
+
+  &.ord-ne {
+    margin-right: -4px;
+    margin-top: -4px;
+    right: 0;
+    top: 0;
+  }
+
+  &.ord-se {
+    bottom: 0;
+    margin-bottom: -4px;
+    margin-right: -4px;
+    right: 0;
+  }
+
+  &.ord-sw {
+    bottom: 0;
+    left: 0;
+    margin-bottom: -4px;
+    margin-left: -4px;
+  }
+}
+
+.jcrop-dragbar {
+  &.ord-n {
+    height: 7px;
+    width: 100%;
+    margin-top: -4px;
+  }
+
+  &.ord-s {
+    height: 7px;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: -4px;
+  }
+
+  &.ord-e {
+    height: 100%;
+    width: 7px;
+    margin-right: -4px;
+    right: 0;
+  }
+
+  &.ord-w {
+    height: 100%;
+    width: 7px;
+    margin-left: -4px;
+  }
+}
+
+.jcrop-light {
+  .jcrop-vline {
+    @extend %Jcrop-extend_2;
+  }
+
+  .jcrop-hline {
+    @extend %Jcrop-extend_2;
+  }
+
+  .jcrop-handle {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: $Jcrop-black;
+    border-color: $Jcrop-white;
+
+    // Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 3px;
+  }
+}
+
+.jcrop-dark {
+  .jcrop-vline {
+    @extend %Jcrop-extend_3;
+  }
+
+  .jcrop-hline {
+    @extend %Jcrop-extend_3;
+  }
+
+  .jcrop-handle {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: $Jcrop-white;
+    border-color: $Jcrop-black;
+
+    // Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 3px;
+  }
+}
+
+.solid-line {
+  .jcrop-vline {
+    background: $Jcrop-white;
+  }
+
+  .jcrop-hline {
+    background: $Jcrop-white;
+  }
+}
+
+img.jcrop-preview {
+  max-width: none;
+}

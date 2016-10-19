@@ -1,0 +1,138 @@
+
+
+.wf-connections_navbar {
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	nav {
+
+		a {
+			position: relative;
+			display: inline-block;
+			margin: 0px 10px;
+			text-align:center;
+			outline: none;
+			color: #615252;
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 400;
+			text-shadow: 0 0 1px rgba(255,255,255,0.3);
+			font-size: 1.35rem;
+			list-style-type: none;
+
+			a:hover,a:focus {
+				outline: none;
+			}
+		}
+
+		
+	}
+
+
+
+
+	.cl-effect-4 {
+		a {
+			padding: 0 0 15px;
+		}
+
+		a::after {
+			position: absolute;
+			top: 65%;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background: #91DCDE;
+			content: '';
+			opacity: 0;
+			-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+			-moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s;
+			transition: height 0.3s, opacity 0.3s, transform 0.3s;
+			-webkit-transform: translateY(-10px);
+			-moz-transform: translateY(-10px);
+			transform: translateY(-10px);
+		}
+
+		a:hover::after, a:focus::after {
+			height: 2px;
+			opacity: 1;
+			-webkit-transform: translateY(0px);
+			-moz-transform: translateY(0px);
+			transform: translateY(0px);
+		}
+	}
+
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen 
+	and (min-width : 320px) 
+	and (max-width : 768px) {
+		nav{
+			text-align:center;
+		    margin-bottom: 20px;
+		}
+	}
+}
+
+
+
+
+
+.wf-listing-searchbox{
+
+	input {
+		outline: none;
+	}
+
+	input[type=search] {
+		-webkit-appearance: textfield;
+		-webkit-box-sizing: content-box;
+		font-family: inherit;
+		font-size: 100%;
+
+
+	}
+
+
+	input::-webkit-search-decoration,
+	input::-webkit-search-cancel-button {
+		display: none; 
+	}
+
+
+	input[type=search] {
+		background: #ededed url(/Images/search-icon.png) no-repeat 9px center;
+		border: solid 1px #ccc;
+		padding: 9px 10px 9px 40px;
+		width: 75px;
+		
+		-webkit-border-radius: 10em;
+		-moz-border-radius: 10em;
+		border-radius: 10em;
+		
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		transition: all .5s;
+		@include ellipsis(90%);
+	}
+	input[type=search]:focus {
+		width: 100%;
+		background-color: #fff;
+		border-color: #91DCDE;
+		
+		-webkit-box-shadow: 0 0 5px rgb(106, 190, 184);
+		-moz-box-shadow: 0 0 5px rgb(106, 190, 184);
+		box-shadow: 0 0 5px rgb(106, 190, 184);
+	}
+
+
+	input:-moz-placeholder {
+		color: #999;
+	}
+	input::-webkit-input-placeholder {
+		color: #999;
+	}
+
+
+}

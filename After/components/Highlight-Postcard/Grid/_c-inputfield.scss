@@ -1,0 +1,276 @@
+.stamped {
+    position: absolute;
+}
+
+.home-input-container {
+        z-index: 1;
+        top: 0;
+        left: 270px;
+        width: 500px;
+        min-height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1305px) {
+        .home-input-container {
+        left: 0px;
+        width: 100%;
+        min-height: 120px;
+        margin-top: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+        .home-input-container {
+        left: 0px;
+        width: 100%;
+        min-height: 120px;
+        margin-top: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .home-input-container {
+        left: 0px;
+        width: 100%;
+        min-height: 120px;
+        margin-top: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .home-input-container {
+        left: 0px;
+        width: 100%;
+        min-height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .home-input-container {
+        left: 0px;
+        width: 100%;
+        min-height: 120px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        &.compact {
+             min-height: 50px;
+        }
+     
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.img-upld .input-container textarea,
+.vid-upld .input-container textarea {
+     height: 3em;
+}
+
+.img-upld .input-container.clearfix {
+     height: 122px;
+}
+
+.dropzone .dz-default.dz-message {
+     background-position: 0 -10px !important;
+}
+
+div#postVideoUpload {
+     background-color: #fff;
+}
+
+
+
+
+.input-container  svg {
+     position: absolute;
+     top: 10px;
+     right: 15px;
+     display: none;
+     width: 30px;
+}
+
+.compact .input-container > svg {
+     display: block;
+}
+
+
+
+.home-input-box {
+    position: relative;
+
+    padding: 8px;
+
+    border: 1px solid #bdc8d1;
+    background-color: #717171;
+    textarea {
+        resize: none;
+
+        border-width: 0;
+        border-radius: 0;
+        outline: none;
+    }
+}
+
+div#postImagesUpload {
+    position: absolute;
+    right: 9px;
+    bottom: 52px;
+    left: 9px;
+
+    width: auto;
+    height: 80px;
+
+    border: none !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+}
+
+.dropzone {
+    position: absolute;
+    right: 9px;
+    bottom: 52px;
+    left: 9px;
+
+    width: auto;
+    height: 80px;
+
+    border: none !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+    &.dz-clickable {
+        bottom: 0;
+        left: 0;
+
+        width: auto;
+        height: 80px !important;
+        min-height: auto !important;
+    }
+}
+
+.home-input-box {
+    &.compact {
+        textarea {
+            height: 34px;
+        }
+        .cntrl-bar {
+            display: none;
+        }
+    }
+    .cntrl-bar {
+        margin: 10px 0 0;
+        a {
+            position: relative;
+            display: inline-block;
+            color: #ccc;
+            vertical-align: middle;
+            margin-right: 10px;
+            
+            &.active{color: #56cacc;}
+
+            i {
+                font-size: 1.8em;
+                display: inline-block;
+                color: #fff;
+                vertical-align: sub;
+                margin-right: 2px;
+            }
+        }
+    }
+}
+
+
+
+
+.home-input-box {
+
+    select {
+        color: #fff;
+        border: solid 1px #ccc;
+        background-color: #717171;
+    }
+
+    //Posting button
+    [type="button"].input-addbtn {
+        display: block;
+        max-width: 50%;
+        margin: 0;
+        margin-left: 10px;
+        padding: 6px;
+        text-align: center;
+        color: #fff;
+        border: solid 0;
+        background-color: #56cacc;
+        font-size: 14px;
+    }
+
+    .PostDropDown {
+        width: 50%;
+        max-width: 42%;
+        padding: 5px;
+        font-size: 13px;    
+    }
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }

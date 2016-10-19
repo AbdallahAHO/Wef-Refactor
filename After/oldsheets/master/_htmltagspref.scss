@@ -1,0 +1,61 @@
+/************************************ HTML TAGS PREFERENCES ************************************/
+* {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+    font-weight: 200;
+
+    color: #236da7;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+h3 {
+    font-size: 140%;
+}
+
+h4 {
+    font-size: 120%;
+}
+
+h5 {
+    font-size: 100%;
+}
+
+h6 {
+    font-size: 90%;
+}
+
+p,
+ol,
+ul,
+dl,
+address {
+    font-size: 100%;
+    line-height: 120%;
+}
+
+
+
+@media \0screen {
+    img {
+        width: auto;
+
+        /* for ie 8 */
+    }
+}

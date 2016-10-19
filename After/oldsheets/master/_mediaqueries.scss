@@ -1,0 +1,2265 @@
+
+
+
+/************************************************************************************************/
+@media only screen and (max-width: 1200px) {
+    .sproject-rside-ad {
+        float: left !important;
+
+        width: 300px;
+        margin: 20px 0 20px 30px;
+    }
+
+    .msgs-tab {
+        margin: 25px 20px 0 25px;
+    }
+
+    .msgs-tab-right {
+        margin: 0 25px 0 0;
+    }
+
+    .banner-wrapper {
+        position: relative;
+
+        width: 100%;
+    }
+
+    .banner-profile-img {
+        z-index: 99;
+
+        overflow: hidden;
+
+        width: 27%;
+        height: auto;
+
+        border: 2px solid #fff;
+    }
+
+    a.inline.edit-profile-img.cboxElement {
+        position: absolute;
+        right: 14px;
+        bottom: 0;
+
+        margin-top: -6px;
+
+        background: url("../../../../Images/edit-profile.png") no-repeat right center;
+    }
+
+    .edit-profile-video {
+        background: url("../../../../Images/video-edit-icon.png") no-repeat right center;
+    }
+
+    .banner-rside-info {
+        margin-left: 210px;
+    }
+
+    .banner-rside-wrap {
+        width: 70%;
+    }
+
+    .hr {
+        width: 100%;
+    }
+
+    .banner-wrapper,
+    .header-wrapper {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1160px) {
+    .project-cont:nth-of-type(3n + 1) {
+        margin-right: 30px;
+    }
+
+    /******FAQ******/
+
+    /******** Home *******/
+    .home-lside {
+        width: 140px;
+        padding-left: 10px;
+    }
+
+    .home-main {
+        margin: 20px 0;
+    }
+
+    .home-rside {
+        padding-right: 10px;
+    }
+
+    /******** Talent Board **********/
+    .body-nav-wrap {
+        width: 100%;
+    }
+
+    .body-cont-wrap {
+        float: right !important;
+
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .faq-cont {
+        width: 95%;
+    }
+
+    .faq-lside {
+        width: 75%;
+    }
+
+    .faq-rside {
+        width: 25%;
+        margin: 30px 0 0;
+    }
+
+    /******ABOUT USER******/
+}
+
+@media only screen and (max-width: 1128px) {
+    .project-cont {
+        &:nth-child(2n) {
+            margin-right: 0;
+        }
+
+        &:nth-of-type(3n + 1) {
+            margin-right: 30px;
+        }
+    }
+}
+
+/*needed for talent board style pages*/
+@media only screen and (max-width: 1100px) {
+    .user-about-wrap {
+        float: none !important;
+
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+
+        &:nth-child(2) {
+            margin-left: auto;
+        }
+    }
+
+    .su-title-wrap > .fL {
+        margin-left: 20px;
+        &:nth-child(2) {
+            margin-left: 0;
+        }
+    }
+
+    /*Messages*/
+    .msgs-main-title {
+        margin: 0 0 0 0;
+    }
+
+    .msgs-wrap {
+        height: auto !important;
+    }
+
+    .body-lside-block {
+        float: none;
+
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-left: auto;
+    }
+
+    /****** Talent Board *******/
+    .talent-post-recent-wrap {
+        float: none !important;
+
+        width: 700px;
+        margin: 0 auto 10px auto;
+    }
+
+    .body-wall-post {
+        float: right !important;
+
+        margin-top: -211px;
+    }
+
+    .wall-event-input-box {
+        height: 209px;
+    }
+
+    .wall-event-input {
+        height: 153px;
+    }
+
+    .scout-outter-wrap,
+    .fan-slider-cont {
+        float: none !important;
+        clear: both;
+
+        margin: 0 auto;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .body-calendar-wrap {
+        float: none !important;
+
+        margin: 0 auto;
+        padding-right: 10px;
+    }
+
+    .body-lside-wrap {
+        float: none !important;
+
+        width: 70%;
+        margin: 10px auto;
+    }
+
+    .block-sponsor {
+        width: 95%;
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+    }
+
+    .block-skills-percent {
+        width: 100%;
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .body-lside-block {
+        float: left;
+        clear: none;
+        overflow: hidden;
+
+        width: 49%;
+        margin: 0;
+        margin-right: 0.5%;
+        margin-bottom: 10px;
+        margin-left: 0.5%;
+    }
+
+    .body-lside-sponser-image {
+        width: 100% !important;
+    }
+
+    .body-filter-top {
+        display: none;
+    }
+
+    .body-filter-mnb {
+        display: inline-block;
+
+        width: 100%;
+        height: 30px;
+
+        text-align: center;
+
+        .fR {
+            float: none !important;
+
+            margin: 0 auto;
+        }
+    }
+
+    .body-cont-wrap {
+        float: none !important;
+
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    /***** SignUp *****/
+
+
+    /***** Profile Event *****/
+    .main-wrap,
+    .profile-event-rside,
+    .logbook-right,
+    .sproject-main-cont {
+        float: none !important;
+
+        margin: 0 auto;
+    }
+
+    /**** logbook ****/
+    .logbook-eventlist {
+        width: auto;
+    }
+
+    .project-body-nav-wrap {
+        width: 100%;
+    }
+
+    .sproject-main-cont {
+        margin-top: 30px;
+    }
+
+    .logbook-right {
+        width: 300px;
+    }
+
+    /*Mesages*/
+    .msgs-lside {
+        width: 70%;
+        margin-bottom: 40px;
+        padding-left: 15%;
+    }
+
+    .msgs-main {
+        float: none !important;
+
+        margin: 0 auto;
+    }
+
+    .profile-event-input-box {
+        margin-bottom: 10px;
+    }
+
+    .user-about-edit {
+        margin-right: 20px;
+    }
+
+    /***** Landing *****/
+    .landing-hero-big {
+        margin-top: 20px;
+    }
+}
+
+/*(min-width: 768px) and*/
+@media only screen and (max-width: 1024px) {
+    .lightbox-information {
+        clear: both;
+
+        width: 96%;
+        height: auto;
+        padding: 0;
+    }
+
+    .lightbox-popup {
+        position: absolute;
+    }
+
+    .create-proj-form textarea {
+        width: 480px;
+        height: 180px;
+    }
+
+    .su-banner-txt {
+        font-size: 42px;
+    }
+
+    .lightbox-popup .lightbox-content {
+        left: 0;
+
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .lightbox-image-txt .text-block,
+    .lightbox-slider-wrap {
+        min-width: 250px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .lightbox-image-txt .text-block,
+    .lightbox-slider-wrap {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .list-user-btns,
+    .list-user-data {
+        margin: 0 0 0 10px;
+    }
+
+    .banner-rside-upgrade {
+        font-size: 12px;
+
+        width: 100px;
+        height: 25px;
+    }
+
+    .banner-rside-seemore {
+        font-size: 14px;
+    }
+
+    .banner-rside-wrap {
+        height: 205px;
+    }
+
+    .banner-rside-name {
+        font-size: 22px;
+    }
+
+    .banner-rside-tid {
+        font-size: 18px;
+    }
+
+    .banner-rside-title {
+        font-size: 19px;
+    }
+
+    .banner-rside-seemore {
+        margin-bottom: 10px;
+    }
+
+    .banner-rside-info {
+        margin-left: 200px;
+    }
+
+    .banner-profile-img {
+        width: 140px;
+    }
+
+    .faq-cont {
+        width: 95%;
+    }
+
+    .faq-lside {
+        width: 75%;
+    }
+
+    .faq-rside {
+        width: 25%;
+        margin: 30px 0 0;
+    }
+
+    .body-wrap {
+        width: 95%;
+    }
+
+    /******** Header ********/
+    .header-wrapper {
+        height: 40px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .header-logo {
+        width: 100px;
+
+        img {
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .header-nav {
+        margin-top: 6px;
+        margin-left: 20px;
+
+        li {
+            font-size: 16px;
+
+            margin-left: 15px;
+        }
+    }
+
+    .header-menu-rside {
+        margin-top: -10px;
+    }
+
+    .header-search input {
+        &:first-of-type {
+            font-size: 18px;
+
+            width: 95px !important;
+        }
+
+        &:nth-child(2) {
+            margin-right: 0 !important;
+        }
+    }
+
+    /******CREATE PROJECT******/
+    .create-btns {
+        float: none !important;
+        clear: both;
+
+        width: 479px;
+
+        div {
+            float: none !important;
+            clear: both;
+
+            width: 479px;
+        }
+    }
+
+    .cancel-btn {
+        margin-left: 0 !important;
+    }
+
+    .create-upload {
+        float: left !important;
+
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .create-project-input-dropzone {
+        height: auto;
+    }
+
+    .proj-drop-files {
+        margin-left: 75px;
+    }
+
+    /******CREATE LOGBOOK*****/
+    .logbook-inputs,
+    .create-proj-form {
+        float: none !important;
+    }
+
+    /******ABOUT USER******/
+    .edit-options div {
+        float: left !important;
+    }
+
+    .hr {
+        margin-top: 0 !important;
+    }
+
+    /******PROJECTS*****/
+    .sproject-input {
+        width: 180px;
+    }
+
+    /******** Home *******/
+    .home-lside {
+        float: none !important;
+
+        width: 671px;
+        height: 30px;
+        margin: 10px auto;
+    }
+
+    .home-lside-title-cont {
+        width: 92%;
+    }
+
+    .home-lside-title {
+        float: left;
+
+        margin: 1px 5px;
+    }
+
+    .home-main {
+        float: none !important;
+
+        margin: 0 auto;
+    }
+
+    .home-rside {
+        float: none !important;
+
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .home-rside-block {
+        float: left;
+
+        width: 135px;
+        margin: 0 6%;
+
+        &:first-of-type {
+            margin-right: 0;
+            margin-left: 3%;
+        }
+
+        &:nth-of-type(4) {
+            float: right;
+        }
+
+        &:nth-of-type(3) {
+            float: right;
+
+            margin-right: 3%;
+            margin-left: 0;
+        }
+    }
+
+    .header-nav li:nth-child(1) {
+        margin-left: 0;
+    }
+
+    /******FRIENDS******/
+    .list-left-cont,
+    .list-user-projects {
+        float: none !important;
+    }
+
+    .list-user-projects-cont {
+        float: left;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .list-cont {
+        height: auto;
+    }
+
+    .list-user-project,
+    .list-user-project-ach {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    /***** SignUp *****/
+    .su-side-wrap {
+        display: none;
+    }
+
+    /*full notifications*/
+    .full-notification-wrap label.css-label {
+        left: 10px;
+    }
+
+    .list-cont {
+        width: 96%;
+    }
+
+    .prem-top-bar-main {
+        font-size: 32px;
+
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .lightbox-image-txt .text-block-in {
+        width: 79%;
+    }
+
+    .su-banner-txt {
+        font-size: 38px;
+    }
+
+    .modal-panel {
+        width: 80%;
+    }
+
+    .profile-event-hero img {
+        width: 200px;
+        margin: 45px 0 0 40px;
+    }
+
+    .profile-event-data {
+        margin: 65px 0 0 65px;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .project-cont {
+        float: none !important;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .lightbox-image-txt .text-block-in {
+        width: 76%;
+    }
+
+    .sign-up-input,
+    .fb-input {
+        box-shadow: 0 3px 5px #5a5a5a;
+    }
+
+    .app-store,
+    .ggl-play {
+        box-shadow: 0 3px 5px #3a3a3a;
+    }
+
+    .landing-input {
+        box-shadow: 0 2px 3px #747474;
+    }
+
+    .body-views img:first-child {
+        margin-left: 0;
+    }
+
+    .sproject-comments-input {
+        display: block;
+        clear: both;
+
+        width: 96%;
+        margin: 15px 0 0;
+    }
+
+    .msgs-main-row-input {
+        padding: 10px 0 20px 20px;
+    }
+
+    .msgs-top-bar-main {
+        height: 45px;
+        padding-top: 1px;
+        padding-bottom: 15px;
+    }
+
+    .msgs-tab {
+        font-size: 0;
+
+        margin: 25px 0 0 28px;
+    }
+
+    .msgs-lside-row-first {
+        height: 30px;
+
+        input {
+            display: none;
+        }
+    }
+
+    .msgs-lside-row-first-txt {
+        margin-top: 0;
+    }
+
+    .modal-panel,
+    .modal_panel_content {
+        height: auto;
+    }
+
+    .modal-achivement-list {
+        overflow: visible;
+
+        height: auto;
+    }
+
+    .modal-achivement-title h1 {
+        font-size: 32px;
+    }
+
+    .modal-achivement-list li {
+        font-size: 20px;
+
+        span {
+            font-size: 24px;
+        }
+    }
+
+    .footer-logo {
+        padding-top: 45px;
+    }
+
+    .footer-totop {
+        top: 14%;
+    }
+
+    /******** Home *******/
+    .home-main,
+    .home-lside {
+        width: 96%;
+        margin: 10px 2%;
+    }
+
+    .home-input-box {
+        float: left;
+
+        width: 100%;
+    }
+
+    .home-input {
+        width: 88%;
+    }
+
+    .main-cont {
+        width: 100%;
+    }
+
+    .home-rside-block {
+        float: left !important;
+
+        height: 175px;
+        margin: 0 20px !important;
+    }
+
+    .main-cont {
+        .body-cont-block {
+            width: 47%;
+            margin-left: 1.5%;
+        }
+
+        .body-cont-top-txt {
+            font-size: 16px;
+
+            width: 70%;
+        }
+
+        .body-cont-bottom {
+            font-size: 14px;
+
+            width: 100%;
+        }
+
+        .block-photoset-left {
+            width: 49.75%;
+            margin: 0;
+        }
+
+        .block-photoset-top {
+            float: right !important;
+
+            width: 49.75%;
+            margin: 0;
+        }
+    }
+
+    /******** Talent Board *******/
+    .body-views {
+        float: left !important;
+        clear: left;
+
+        margin: 5px 0;
+    }
+
+    .talent-post-recent-wrap {
+        width: 100%;
+    }
+
+    .body-wall-post {
+        width: 47%;
+    }
+
+    .body-wall-post-text {
+        font-size: 18px;
+
+        padding: 0;
+
+        word-break: break-word;
+    }
+
+    .body-wall-bottom {
+        font-size: 16px;
+    }
+
+    .body-calendar-wrap {
+        width: 340px;
+    }
+
+    .body-calendar {
+        margin: 8px 0 10px 5px;
+    }
+
+    .body-calendar-eventlist {
+        width: 340px;
+        margin-left: 4px;
+    }
+
+    .body-cont-wrap {
+        width: 100%;
+
+        .body-cont-block {
+            overflow: hidden;
+
+            width: 47%;
+            margin-left: 1.5%;
+        }
+
+        .body-cont-top-txt {
+            font-size: 16px;
+
+            width: 70%;
+        }
+
+        .body-cont-bottom {
+            font-size: 14px;
+
+            width: 97%;
+        }
+    }
+
+    .block-photoset-center {
+        width: 100%;
+        height: auto;
+    }
+
+    .body-cont-wrap {
+        .block-photoset-left {
+            width: 32.5%;
+            margin: 0;
+        }
+
+        .block-photoset-top {
+            width: 32.5%;
+            margin: 0 0.65%;
+        }
+
+        .block-photoset-right {
+            width: 32.5%;
+            margin: 0;
+        }
+    }
+
+    .body-lside-wrap {
+        width: 340px;
+    }
+
+    .wall-event-input-box {
+        width: 47%;
+        height: 160px;
+    }
+
+    .wall-event-input {
+        /*height: 50px;*/
+        width: 70%;
+    }
+
+    .body-lside-wrap {
+        width: 100%;
+    }
+
+    div.input-addbtn:nth-of-type(1),
+    .input-addbtn:nth-of-type(2) {
+        font-size: 0;
+
+        width: 30px;
+    }
+
+    .modal-achivement-list {
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /******** Scout Profile *******/
+    .scout-outter-wrap {
+        width: 100%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0;
+    }
+
+    .scout-arrow {
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+
+    .scout-inner-wrap {
+        width: 75%;
+    }
+
+    /*Fan*/
+    .fan-slider-cont {
+        width: 100%;
+        margin-top: 25px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .fan-slider-arrow {
+        width: 5%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #fan-slider-next {
+        margin-left: 10px;
+    }
+
+    #fan-slider-prev {
+        margin-right: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /******FRIENDS******/
+    .list-left-cont,
+    .list-user-projects {
+        float: none !important;
+    }
+
+    .list-user-projects-cont {
+        float: left;
+
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .list-cont {
+        height: auto;
+    }
+
+    /* Single Notification */
+    .lightbox-information-txt .user-about-edit-lightbox {
+        margin-bottom: 10px;
+    }
+
+    .chosen-container-multi .chosen-choices {
+        margin-bottom: 0;
+    }
+
+    .lightbox-information-txt .lightbox-likeshare {
+        margin-top: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /****** Profile Event ******/
+    .profile-event-data {
+        margin: 65px 0 0 35px;
+    }
+
+    /* logbook */
+    .sproject-main-cont {
+        width: 100%;
+    }
+
+    .logbook-eventlist {
+        width: auto;
+    }
+
+    .sproject-hero {
+        height: auto;
+    }
+
+    .sproject-hero-footer,
+    .sproject-comments-title,
+    .sproject-comments-comment {
+        width: auto;
+    }
+
+    /*mesages*/
+    .msgs-lside {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .msgs-main {
+        width: 98%;
+    }
+
+    .msgs-wrap {
+        float: none;
+        clear: both;
+
+        width: 90% !important;
+    }
+
+    .msgs-main-lbubble,
+    .msgs-main-rbubble {
+        max-width: 60%;
+    }
+
+    .msgs-main-title {
+        clear: both;
+
+        width: 100%;
+    }
+
+    .messages-input-box {
+        width: 93% !important;
+    }
+
+    .messages-input {
+        width: 80% !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /************* Landing **************/
+    .landing-hero-big {
+        margin-top: 0;
+        margin-bottom: -100px;
+
+        color: #404041;
+    }
+
+    .landing-sign-up {
+        float: none;
+
+        height: 200px;
+        margin: 78% auto -10% auto;
+    }
+}
+
+@media screen and (max-width: 750px) {
+}
+
+@media screen and (max-width: 710px) {
+    .header-search input:first-of-type {
+        font-size: 16px;
+
+        width: 55px !important;
+    }
+
+    .header-nav li {
+        font-size: 14px;
+
+        margin-left: 10px;
+    }
+}
+
+/*Needed for Profile Event*/
+@media screen and (max-width: 650px) {
+    .lightbox-image-txt .text-block-in {
+        width: 73%;
+    }
+
+    .sproject-name {
+        font-size: 26px;
+    }
+
+    .su-banner-txt {
+        font-size: 30px;
+
+        margin: 9% 0 0;
+    }
+
+    .header-mnb {
+        display: block;
+    }
+
+    #header-menu-dropdown-profile {
+        top: 45px;
+        right: -11px;
+    }
+
+    .header-logo {
+        overflow: hidden;
+
+        width: 27px;
+        margin-top: -2px;
+
+        img {
+            width: 115px;
+            max-width: none;
+        }
+    }
+
+    .header-menu-item img,
+    .header-menu-item-user img {
+        margin-left: 0;
+    }
+
+    #notification_panel {
+        right: -305px !important;
+    }
+
+    #settings_mItem {
+        position: relative;
+        left: 10px;
+    }
+
+    .main-wrap {
+        width: 90%;
+        padding: 0;
+    }
+
+    .profile-event-input-box {
+        width: 100%;
+    }
+
+    .profile-event-input {
+        width: 80%;
+    }
+
+    .profile-event-hero img {
+        width: 170px;
+        height: 170px;
+        margin-top: 50px;
+    }
+
+    .profile-event-name {
+        font-size: 30px;
+
+        width: 240px;
+    }
+
+    .profile-event-date {
+        font-size: 20px;
+
+        width: 240px;
+    }
+
+    .profile-event-desc {
+        font-size: 16px;
+
+        width: 240px;
+    }
+
+    .profile-event-map,
+    .profile-event-post-cont {
+        width: 100%;
+    }
+
+    .profile-event-post,
+    .profile-event-post-time {
+        width: 95%;
+        padding-right: 5%;
+    }
+
+    .profile-event-post-desc {
+        font-size: 14px;
+
+        width: 77%;
+    }
+
+    .profile-event-postwimg-cont,
+    .profile-event-postwimg,
+    .profile-event-postwimg-image {
+        width: 100%;
+    }
+
+    .profile-event-post-userpic {
+        width: 40px;
+        margin: 15px 15px 0;
+    }
+
+    /******* Header *******/
+    .header-search {
+        margin: -10px 0 0 15px;
+    }
+
+    .header-nav {
+        display: none;
+        clear: both;
+
+        width: 90%;
+        margin-top: 0;
+
+        text-align: center;
+
+        li {
+            font-size: 20px !important;
+
+            display: list-item;
+
+            margin-bottom: 10px;
+        }
+    }
+
+    .banner-profile-img {
+        width: 140px;
+    }
+
+    .banner-rside-info {
+        margin-top: 25px;
+        margin-left: 185px;
+    }
+
+    .banner-rside-wrap {
+        height: 197px;
+    }
+
+    .banner-rside-name {
+        font-size: 20px;
+    }
+
+    .banner-rside-tid {
+        font-size: 16px;
+    }
+
+    .banner-rside-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    #fan-slider-next {
+        margin-left: 0;
+    }
+
+    #fan-slider-prev {
+        margin-right: 0;
+    }
+
+    .big-banner-image-overlay {
+        font-size: 40px;
+
+        height: 85px;
+        padding-top: 75px;
+    }
+
+    .big-banner-image {
+        height: 160px;
+    }
+
+    .landing-sign-up {
+        margin-top: 63%;
+    }
+
+    .prem-top-bar-main {
+        font-size: 28px;
+
+        height: 100px;
+
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    .fan-slider-int-cont {
+        width: 88%;
+    }
+
+    /****** Friends ******/
+    .list-user-projects-cont {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 579px) {
+    .lightbox-image-txt .text-block-in {
+        width: 69%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .lightbox-image-txt .text-block,
+    .lightbox-slider-wrap {
+        width: 87%;
+    }
+
+    .list-user-project {
+        font-size: 30px;
+
+        width: 120px;
+        height: 60px;
+    }
+
+    .list-user-project-ach {
+        font-size: 30px;
+
+        width: 120px;
+        height: 60px;
+
+        img {
+            width: 26px;
+            margin-right: 5px;
+        }
+    }
+
+    .list-user-project img {
+        height: 90px;
+    }
+
+    .list-user-project-vidplay {
+        left: 35px;
+    }
+
+    .banner-profile-img {
+        width: 100px;
+    }
+
+    .banner-rside-name {
+        font-size: 18px;
+
+        margin-bottom: 8px;
+    }
+
+    .banner-rside-tid {
+        font-size: 15px;
+
+        margin-bottom: 8px;
+    }
+
+    .banner-rside-title {
+        font-size: 16px;
+    }
+
+    .banner-rside-wrap {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home-input {
+        font-size: 14px;
+    }
+
+    .create-proj-form {
+        input,
+        textarea {
+            width: 95% !important;
+        }
+    }
+
+    .profile-event-date {
+        margin: 25px 0 0;
+    }
+
+    .profile-event-name {
+        margin-top: 20px;
+    }
+
+    .profile-event-data {
+        margin-top: 10px;
+    }
+
+    .profile-event-hero img {
+        width: 100px;
+        height: 100px;
+        margin-top: 25px;
+    }
+
+    /******Talent Board *******/
+    .body-lside-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .list-user-btn {
+        font-size: 10px;
+
+        width: 65px;
+    }
+
+    .list-user-data-name {
+        font-size: 16px;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .list-user-data-desc {
+        font-size: 12px;
+    }
+
+    .lightbox-image-txt .text-block-in {
+        width: 63%;
+    }
+
+    .su-gender-label-1,
+    .su-gender-label-2 {
+        margin-top: 16px;
+        margin-left: 5px;
+    }
+
+    .su-banner-txt {
+        font-size: 26px;
+
+        margin: 10% 0 0;
+    }
+
+    .body-views {
+        font-size: 12px;
+
+        img {
+            width: 20px;
+        }
+    }
+
+    .profile-event-post-desc {
+        clear: both;
+
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+
+    .create-btns {
+        width: 100%;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .header-top-nav td:first-child {
+        display: block;
+    }
+
+    .footer-logo {
+        width: 70%;
+    }
+
+    .footer-totop {
+        top: 12%;
+        right: 10%;
+    }
+
+    home-main,
+    .home-lside {
+        margin: 10px 2% 20px;
+    }
+
+    /******** Home *******/
+    .home-lside-username {
+        font-size: 13px;
+    }
+
+    .home-lside-title-cont {
+        width: 60%;
+    }
+
+    .home-lside-title {
+        font-size: 12px;
+    }
+
+    .home-lside {
+        height: 20px;
+    }
+
+    .main-cont {
+        .body-cont-top-txt {
+            font-size: 12px;
+
+            width: 60%;
+        }
+
+        .body-cont-bottom {
+            font-size: 10px;
+
+            width: 100%;
+        }
+    }
+
+    .body-cont-wrap {
+        .body-cont-top-txt {
+            font-size: 14px;
+
+            width: 60%;
+        }
+
+        .body-cont-bottom {
+            font-size: 12px;
+
+            width: 100%;
+        }
+    }
+
+    .body-filter li {
+        font-size: 16px;
+    }
+
+    /******* Talent Board ********/
+    .talent-post-recent-wrap {
+        float: none !important;
+
+        width: 340px;
+        height: 160px;
+        margin: 5px auto;
+        margin-bottom: 20px;
+    }
+
+    .body-wall-post {
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .body-wall-post-text {
+        padding-left: 10px;
+    }
+
+    .wall-event-input-box {
+        overflow: hidden;
+
+        width: 100%;
+    }
+
+    .wall-event-input {
+        height: 50px;
+    }
+
+    /******** Scout *******/
+    .scout-item:nth-of-type(2n) {
+        margin-right: 180px;
+    }
+
+    #scout-slider {
+        width: 2000px !important;
+    }
+
+    .body-nav li {
+        font-size: 12px;
+
+        margin-right: 5px;
+    }
+
+    /******* Friends *******/
+    .list-cont {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /********* Create Account *********/
+
+
+    /***** profile event *****/
+
+    /*mesages*/
+    .msgs-main-lbubble,
+    .msgs-main-rbubble {
+        max-width: 60%;
+    }
+
+    .msgs-wrap {
+        width: 90% !important;
+    }
+
+    .messages-input-box {
+        width: 90% !important;
+
+        .input-addbtn:last-child {
+            display: block;
+        }
+    }
+
+    /*Singe Notification*/
+    .full-notification-wrap {
+        .text-block {
+            padding: 15px 10px;
+
+            word-break: break-all;
+        }
+
+        .chosen-container-multi {
+            width: 100% !important;
+        }
+    }
+
+    /*Premium*/
+    .prem-top-bar-main {
+        font-size: 24px;
+
+        height: 60px;
+    }
+
+    /***** signup ******/
+
+
+    /****** Single Project ******/
+    .sproject-name {
+        font-size: 24px;
+    }
+
+    .sproject-desc {
+        font-size: 14px;
+    }
+
+    .sproject-hero-footer {
+        font-size: 12px;
+    }
+
+    /******* Landing ********/
+    .landing-hero .container12 {
+        width: 100%;
+    }
+
+    .landing-sign-up {
+        width: 90%;
+        margin-top: 41%;
+        padding: 5%;
+    }
+
+    input.su-next {
+        margin: 30px 26px 30px 5px !important;
+    }
+
+    .su-title-wrap {
+        margin: 20px 0 20px 10px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+}
+
+@media screen and (max-width: 435px) {
+    .banner-rside-wrap {
+        height: 185px;
+    }
+
+    .banner-profile-img {
+        width: 90px;
+    }
+
+    .banner-rside-name {
+        font-size: 16px;
+
+        margin-bottom: 8px;
+    }
+
+    .banner-rside-tid {
+        font-size: 13px;
+
+        margin-bottom: 8px;
+    }
+
+    .banner-rside-title {
+        font-size: 14px;
+    }
+
+    .banner-rside-date,
+    .banner-rside-location {
+        font-size: 12px;
+    }
+
+    .banner-rside-upgrade {
+        font-size: 10px;
+
+        width: 90px;
+        height: 22px;
+    }
+
+    .list-user-btns {
+        clear: left;
+
+        margin: 0;
+    }
+
+    .list-user-data {
+        margin: 0;
+    }
+
+    .list-user-data-cont {
+        margin-left: 5px;
+    }
+
+    .big-banner-image-overlay {
+        font-size: 30px;
+
+        height: 65px;
+        padding-top: 35px;
+    }
+
+    .big-banner-image {
+        height: 100px;
+    }
+
+    .messages-input-box {
+        width: 100% !important;
+        margin-left: -20px;
+        padding-left: 0;
+    }
+
+    /******* Header ******/
+    .header-nav {
+        margin-top: 5px;
+
+        li {
+            font-size: 18px !important;
+
+            margin-left: 1px !important;
+        }
+    }
+
+    /****** Home ******/
+    .main-cont,
+    .body-cont-wrap {
+        .body-cont-block {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .body-cont-top-txt {
+            font-size: 16px;
+
+            width: 70%;
+        }
+
+        .body-cont-bottom {
+            font-size: 14px;
+
+            width: 100%;
+        }
+    }
+
+    .body-filter li {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .list-user-btn {
+        width: 62px;
+    }
+
+    .home-lside-title-cont {
+        width: 100%;
+    }
+
+    .home-lside-userpic {
+        display: none;
+    }
+
+    .home-lside-username {
+        margin-left: 0;
+    }
+
+    .lightbox-image-txt .text-block-in {
+        font-size: 14px;
+
+        width: 61%;
+        margin-left: 80px;
+    }
+
+    .Lightbox-text-profile-pic {
+        top: 25px;
+        left: 20px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .Lightbox-text-username {
+        left: 0;
+    }
+
+    .body-cont-top-txt {
+        width: 253px;
+    }
+
+    .list-user-project,
+    .list-user-project-ach {
+        font-size: 30px;
+
+        width: 95px;
+        height: 60px;
+    }
+
+    .list-user-project {
+        font-size: 25px;
+
+        width: 95px;
+        height: 40px;
+    }
+
+    .list-user-project-ach {
+        font-size: 25px;
+
+        width: 95px;
+        height: 40px;
+
+        img {
+            width: 20px;
+            margin-top: -3px;
+            margin-right: 5px;
+        }
+    }
+
+    .list-user-project img {
+        height: 70px;
+    }
+
+    .list-user-project-vidplay {
+        top: 10px;
+        left: 24px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    /*search projects*/
+    .sproject-input {
+        width: 130px;
+        margin-right: 5px;
+        margin-left: 0;
+    }
+
+    .body-views {
+        font-size: 11px;
+
+        img {
+            width: 18px;
+        }
+    }
+
+    .su-banner-txt {
+        font-size: 22px;
+
+        margin: 13% 0 0;
+    }
+
+    .msgs-lside-row-first {
+        height: 30px;
+    }
+
+    .msgs-lside-row-first-txt {
+        margin: 0 0 0 15px;
+    }
+
+    .body-nav li {
+        font-size: 11px;
+    }
+
+    .sproject-name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .home-lside-title {
+        font-size: 11px;
+
+        margin: 1px 3px;
+    }
+
+    .home-lside-username {
+        font-size: 12px;
+
+        width: 75px;
+    }
+
+    .home-lside-title-cont {
+        margin-left: 0;
+    }
+
+    .home-lside {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .logbook-npbtn {
+        margin: 20px 0 0 30px;
+    }
+
+    .sproject-comments-postbtn {
+        margin: 15px -5px 15px 0;
+    }
+
+    .home-input,
+    .wall-event-input {
+        width: 84%;
+    }
+
+    .input-addbtn {
+        width: 90px;
+    }
+
+    .main-cont {
+        .body-cont-top-txt {
+            font-size: 14px;
+
+            width: 70%;
+        }
+
+        .body-cont-bottom {
+            font-size: 12px;
+
+            width: 100%;
+        }
+    }
+
+    /****** Talent Board ******/
+    .talent-post-recent-wrap {
+        float: none !important;
+
+        width: 100%;
+        height: auto;
+        margin: 5px auto;
+        margin-bottom: 20px;
+    }
+
+    .body-calendar-wrap {
+        overflow: hidden;
+
+        width: 100%;
+    }
+
+    .body-calendar {
+        width: 79% !important;
+        margin-top: 50px;
+        padding: 5%;
+    }
+
+    .body-calendar-eventlist {
+        width: 100% !important;
+    }
+
+    .body-lside-block,
+    .body-lside-wrap {
+        overflow: hidden;
+
+        width: 100% !important;
+    }
+
+    /******* Landing ********/
+}
+
+@media screen and (max-width: 365px) {
+    .body-nav li {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .landing-submit {
+        font-size: 13px;
+
+        position: relative;
+        z-index: 100;
+
+        height: 40px;
+        padding: 11px 8px;
+    }
+
+    .su-banner-txt {
+        font-size: 20px;
+
+        margin: 14% 0 0;
+    }
+
+    .messages-input-box {
+        width: 103% !important;
+        margin-left: -27px;
+        padding-left: 0;
+    }
+
+    .modal-panel {
+        width: 75%;
+    }
+
+    .dropzone .dz-default.dz-message {
+        left: 52% !important;
+
+        height: 116px !important;
+
+        background-size: 132% !important;
+    }
+
+    .footer-totop {
+        top: 12%;
+        right: 6%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Talent Board */
+    .block-post-media {
+        overflow: hidden;
+    }
+
+    .body-calendar {
+        width: 264px;
+        margin-left: 0;
+    }
+
+    .body-calendar-eventlist {
+        width: 264px;
+        width: 305px;
+        margin-left: 0;
+
+        border-left: none;
+    }
+
+    .body-lside-sponser-image {
+        overflow: hidden;
+
+        width: 320px !important;
+    }
+
+    .body-lside-wrap {
+        width: 320px;
+    }
+
+    .body-lside-block {
+        overflow: hidden;
+
+        width: 320px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .body-wall-post {
+        width: 90%;
+    }
+
+    .body-wall-post-text {
+        width: 90%;
+        margin: 0;
+        padding-left: 5%;
+
+        word-break: break-all;
+    }
+
+    .input-addbtn:last-child {
+        display: block;
+    }
+
+    .body-cont-bottom {
+        font-size: 12px;
+        line-height: 15px;
+
+        width: 220px;
+        height: 30px;
+        padding: 0;
+    }
+
+    .block-photoset-top {
+        border: none;
+    }
+
+    .block-photoset-right {
+        display: none;
+    }
+
+    .block-photoset-left {
+        width: 49.25% !important;
+    }
+
+    .block-photoset-top {
+        float: right !important;
+
+        width: 49.25% !important;
+    }
+
+    .talent-post-recent-wrap,
+    .wall-event-input-box,
+    .body-wall-post {
+        width: 100%;
+    }
+
+
+
+    /*profile event*/
+    .profile-event-rside-title {
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*single project*/
+    .sproject-rside-cont {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sproject-rside-cont-top {
+        width: 90%;
+        padding: 0 5%;
+    }
+
+    .banner-rside-upgrade {
+        font-size: 10px;
+
+        width: 90px;
+        height: 21px;
+    }
+
+    .banner-rside-seemore {
+        margin-bottom: 10px;
+    }
+
+    .banner-rside-date,
+    .banner-rside-location {
+        font-size: 11px;
+    }
+
+    .banner-rside-title {
+        font-size: 12px;
+    }
+
+    .banner-rside-tid {
+        font-size: 11px;
+    }
+
+    .banner-rside-name {
+        font-size: 14px;
+    }
+
+    .banner-rside-info {
+        margin-top: 22px;
+    }
+
+    .banner-rside-seemore {
+        font-size: 12px;
+    }
+
+    .banner-rside-wrap {
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .project-cont {
+        margin-left: -6px !important;
+    }
+
+    .lightbox-information-txt {
+        padding: 0 0 0 1%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .project-cont {
+        margin-left: -9px !important;
+    }
+}
+
+/* Fix for some Chrome & Safari browsers */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+}

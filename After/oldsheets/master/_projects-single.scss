@@ -1,0 +1,508 @@
+/****************************************************************************************/
+
+/************************************ SINGLE PROJECT ************************************/
+
+/****************************************************************************************/
+.linebreak {
+    width: 100%;
+    height: 1px;
+
+    background: #aaaaac;
+}
+
+.project-body-nav-wrap {
+    font-size: 14px;
+
+    width: 1025px;
+    height: 15px;
+    padding: 15px 0;
+}
+
+.sproject-main-cont {
+    width: 700px;
+    margin: 30px 0;
+}
+
+.sproject-name {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 120%;
+
+    letter-spacing: 0.03em;
+
+    color: #141f2f;
+
+    overflow-wrap: break-word;
+}
+
+/*************************************************/
+.logbook-npbtn {
+    font-size: 14px;
+    font-weight: 500;
+
+    margin: 0 0 0 30px;
+
+    color: #50a8b0;
+
+    img {
+        margin: 0 5px;
+    }
+
+    div {
+        padding-top: 1px;
+    }
+}
+
+/*************************************************/
+.sproject-desc {
+    font-size: 16px;
+    font-weight: 300;
+
+    margin: 10px 0 20px 0;
+
+    color: #141f2f;
+
+    overflow-wrap: break-word;
+}
+
+.sproject-hero {
+    position: relative;
+
+    width: 100%;
+    height: 470px;
+
+    .project-share,
+    .project-share-menu {
+        top: 0 !important;
+    }
+
+    .project-share-menu-tip {
+        top: 10px !important;
+    }
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.sproject-hero-footer {
+    font-size: 16px;
+    font-weight: 300;
+
+    display: flex;
+
+    width: 675px;
+    height: 50px;
+    padding: 0 25px 0 0;
+
+    color: #fff;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+        margin: 0 10px 0 15px;
+    }
+}
+
+.sproject-item {
+    position: relative;
+
+    width: 165px;
+    height: 100px;
+    margin: 15px 13px 0 0;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
+
+.sproject-item-video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.3) url(../../../../Images/project-video.png) no-repeat center;
+}
+
+.sproject-comments-cont {
+    width: 100%;
+
+    border: 1px solid #adb0b4;
+    background: #f4fdfc;
+}
+
+.sproject-comments-title {
+    font-size: 16px;
+    font-weight: 300;
+
+    display: flex;
+
+    width: 660px;
+    height: 40px;
+    padding: 0 20px;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+
+    align-items: center;
+}
+
+.sproject-comments-title-arrow {
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 20px;
+
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.sproject-comments-input-cont {
+    margin: 0 0 10px 0;
+    padding: 20px 20px 0 20px;
+}
+
+.sproject-comments-userimg {
+    width: 54px;
+    height: 54px;
+
+    border-radius: 3px;
+
+    img {
+        width: 100%;
+        height: 100%;
+
+        border-radius: 3px;
+    }
+}
+
+.sproject-comments-username {
+    font-size: 15px;
+    font-weight: 500;
+
+    margin-left: 10px;
+
+    color: #2c3945;
+}
+
+.sproject-comments-input {
+    font-size: 16px;
+
+    width: 86%;
+    height: 70px;
+    margin: 15px 0 0 10px;
+    padding: 10px;
+
+    border: 1px solid #adb0b4;
+    border-radius: 2px;
+}
+
+.sproject-comments-postbtn {
+    font-size: 14px;
+    font-weight: 300;
+
+    width: 65px;
+    height: 31px;
+    margin: 15px 7px 15px 0;
+    padding: 5px 0 0;
+
+    color: #fff;
+    border: 1px solid #57cacd;
+    background: url("../../../../Images/blue-pixel.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+    &[value="Tag"] {
+        position: relative;
+        top: -7px;
+
+        height: 36px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &:hover {
+        color: #57cacd;
+        border: 1px solid #57cacd;
+        background: #fff;
+    }
+}
+
+.sproject-comments-sep {
+    width: 100%;
+    height: 1px;
+
+    background: #d9e2e8;
+}
+
+.sproject-comments-comment {
+    font-size: 13px;
+    font-weight: 300;
+
+    width: 584px;
+    margin: 15px 0 0 10px;
+
+    color: #627184;
+}
+
+.sproject-rside-cont {
+    width: 250px;
+    margin: 48px 0 0 30px;
+}
+
+.sproject-rside-cont-top {
+    width: 100%;
+    padding: 0 25px;
+
+    background: #d4f4f1;
+}
+
+.sproject-rside-money {
+    font-size: 22px;
+    font-weight: 300;
+
+    margin: 30px 0 0 0;
+
+    color: #5f6062;
+}
+
+.sproject-rside-percent {
+    font-size: 16px;
+    font-weight: 300;
+
+    margin: 30px 0 0 0;
+
+    color: #6b6b6d;
+}
+
+.sproject-data-perbar {
+    position: relative;
+
+    width: 100%;
+    height: 12px;
+    margin: 15px 0;
+
+    background: #fff;
+}
+
+.sproject-rside-target {
+    font-size: 16px;
+    font-weight: 300;
+
+    width: 100px;
+
+    color: #5f6062;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.sproject-rside-VerticalAlign .sproject-rside-target {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.sproject-rside-Donation {
+    height: auto !important;
+    max-height: 345px;
+}
+
+.sproject-rside-left {
+    font-size: 14px;
+    font-weight: 200;
+
+    color: #5f6062;
+}
+
+.sproject-rside-desc {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 130%;
+
+    margin: 20px 0;
+
+    color: #686c6d;
+}
+
+.sproject-rside-contributebtn {
+    font-size: 24px;
+    font-weight: 300;
+
+    width: 250px;
+    height: 33px;
+    margin: 0 0 30px;
+    padding-top: 23px;
+
+    letter-spacing: 0.05em;
+
+    color: #404041;
+    border: 1px solid #f9e449;
+    background: none repeat scroll 0 0 #f9e449;
+
+    &:hover {
+        color: #57cacd;
+        border: 1px solid #57cacd;
+        background: #fff;
+    }
+}
+
+.sproject-rside-contribute-input {
+    font-size: 16px;
+    font-weight: 300;
+
+    width: 160px;
+    height: 30px;
+    padding: 5px;
+
+    color: #5f6062;
+    border: none !important;
+}
+
+.sproject-rside-contribute-select {
+    width: 70px;
+    height: 50px;
+
+    border: none !important;
+}
+
+.sproject-rside-proceedbtn {
+    font-size: 14px;
+    font-weight: 300;
+
+    display: flex;
+
+    width: 150px;
+    height: 30px;
+    margin: 15px 0 30px 0;
+
+    color: #404041;
+    border: 1px solid #f9e449;
+    background: #f9e449;
+
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        color: #57cacd;
+        border: 1px solid #57cacd;
+        background: #fff;
+    }
+}
+
+.sproject-rside-ad {
+    width: 300px;
+    margin: 20px 0;
+
+    img {
+        width: 100%;
+    }
+}
+
+.sproject-arrows {
+    margin: 20px 0 15px 0;
+
+    text-align: center;
+
+    img {
+        margin: 0 5px;
+    }
+}
+
+.sproject-slider-outer {
+    position: relative;
+
+    overflow: hidden;
+}
+
+#sproject_slider_inner {
+    position: relative;
+    left: 0;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+}
+
+.sproject-input {
+    font-size: 15px;
+
+    width: 270px;
+    height: 18px;
+    margin: 15px 10px 20px 0;
+    padding: 10px;
+}
+
+.sproject-search-cont {
+    select {
+        font-size: 15px;
+
+        height: 40px;
+        margin: 15px 0 0 0;
+        padding: 0 0 0 5px;
+
+        color: #7c7b7b;
+        border: 1px solid #55606e;
+    }
+
+    input[type="submit"] {
+        width: 22px;
+        height: 22px;
+        margin: 25px 0 0 15px;
+
+        border: none;
+        background: url("../../../../Images/search-icon.png") #fff;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.sproject-label {
+    font-size: 15px;
+    font-weight: 300;
+
+    margin: 15px 0 0;
+
+    color: #706f6f;
+}
+
+
+.sproject-comment-body {
+    text-align: left;
+    > a {
+        margin-right: 10px;
+    }
+}
+
+/*******************************************/
+.snoti-media {
+    width: 100%;
+    margin: 25px 0;
+
+    text-align: center;
+}
+
+/*******************************************/

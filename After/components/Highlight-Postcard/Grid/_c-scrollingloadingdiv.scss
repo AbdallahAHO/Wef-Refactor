@@ -1,0 +1,42 @@
+.wf-highlights-loading {
+     
+     .wf-highlights-loading__header {
+
+          margin-top: 25px;
+    	     margin-bottom: 0px;
+          padding: 10px;
+          background-color: #dedede;
+          text-align: center;
+          
+          span {
+               display: inline-block;
+               vertical-align: middle;
+               font-size: 16px;
+          }
+          
+          .loading-animation {
+               overflow: hidden;
+               display: inline-block;
+               vertical-align: middle;
+               margin-left: 5px;
+               animation-name: rotating;
+               animation-duration: 1s;
+               animation-iteration-count: infinite;
+               transform-origin: 50% 50%;
+               display: inline-block;
+          }
+          @keyframes rotating {
+               0% {
+                    transform: rotate(0deg);
+               }
+               100% {
+                    transform: rotate(360deg);
+               }
+          }
+     }
+}
+
+
+.hideloadinganimation {
+    display: none !important;
+}

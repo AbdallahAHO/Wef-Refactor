@@ -1,0 +1,142 @@
+
+/************************************ User About ************************************/
+.user-about-wrap {
+    font-size: 16px;
+
+    width: 470px;
+    margin-bottom: 30px;
+    padding-left: 0;
+
+    color: #a0afb1;
+
+    &:nth-child(2) {
+        margin-left: 90px;
+    }
+}
+
+.user-about-edit {
+    font-size: 14px;
+
+    margin-top: 40px;
+    margin-right: 12px;
+
+    cursor: pointer;
+
+    color: #4ad2d5;
+
+    img {
+        height: 12px;
+        margin-right: 5px;
+    }
+
+    &:hover {
+        color: #4dc7dc;
+    }
+}
+
+/**************************/
+.user-about-edit-lightbox {
+    font-size: 14px;
+
+    margin-top: 0;
+    margin-right: 12px;
+    margin-bottom: 0;
+
+    cursor: pointer;
+
+    color: #4ad2d5;
+
+    img {
+        height: 12px;
+        margin-right: 5px;
+    }
+
+    &:hover {
+        color: #4dc7dc;
+    }
+}
+
+/**************************/
+.user-about-item {
+    margin-bottom: 20px;
+}
+
+.user-about-item-guar {
+    width: 428px;
+    margin-bottom: 25px;
+    padding: 15px;
+
+    background: none repeat scroll 0 0 #f6f6f6;
+
+    .user-about-item:nth-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+.user-about-item p {
+    line-height: 150%;
+}
+
+.user-about-heading {
+    font-size: 35px;
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    color: #18bdd6;
+}
+
+.user-about-name-title {
+    font-size: 20px;
+    line-height: 100%;
+
+    color: #4dc7dc;
+}
+
+.user-about-subtitle {
+    font-size: 20px;
+
+    margin-right: 5px;
+    padding-bottom: 10px;
+
+    color: #18bdd6;
+}
+
+.user-about-large-text {
+    font-size: 20px;
+}
+
+.user-about-table {
+    width: 100%;
+
+    border: 1px solid #c3cdce;
+
+    tr:nth-child(2n-1) {
+        background: url(../../../../Images/e7f7f6.png) repeat;
+    }
+
+    td {
+        width: 250px;
+        max-width: 25%;
+        height: 40px;
+
+        vertical-align: middle;
+
+        border: 1px solid #c3cdce;
+    }
+}
+
+.user-about-pro-imgs {
+    width: 105px;
+    height: 105px;
+    margin-right: 5px;
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

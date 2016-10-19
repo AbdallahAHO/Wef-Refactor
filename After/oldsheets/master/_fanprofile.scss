@@ -1,0 +1,84 @@
+/*************************************************************************************/
+
+/************************************ FAN PROFILE ************************************/
+
+/*************************************************************************************/
+.fan-slider-cont {
+    display: flex;
+
+    width: 620px;
+    height: 270px;
+    padding: 30px;
+
+    background: #e7f7f6;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.fan-slider {
+    height: 240px;
+}
+
+.fan-slider-arrow {
+    display: flex;
+
+    height: 100%;
+    margin: 0 8px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.fan-slider-int-cont {
+    overflow: hidden;
+
+    width: 520px;
+}
+
+.fan-slider-int {
+    position: relative;
+    left: 0;
+
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.fan-slider-int-overlay {
+    font-size: 19px;
+    font-weight: 500;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background: rgba(0, 0, 0, 0.3);
+    }
+}

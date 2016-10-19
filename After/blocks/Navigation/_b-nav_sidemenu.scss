@@ -1,0 +1,145 @@
+
+
+/* style side submenu and its items*/
+#wf-nav_lateral {
+    position: fixed;
+    /* the secondary navigation is covered by the main element */
+    z-index: $secondary-nav; // see partials > _variables.scss
+    top: 0;
+    right: 0;
+
+    visibility: hidden;
+    overflow-y: auto;
+
+    width: $nav-width-S;
+    height: 100%;
+
+    -webkit-transition: -webkit-transform 0.4s 0s;
+       -moz-transition:    -moz-transform 0.4s 0s;
+            transition:         transform 0.4s 0s;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+
+    background-color: $submenu-background;
+
+    -webkit-backface-visibility: hidden;
+    /* this creates the subtle slide in animation of the navigation */
+    @include transform(translateX(80px));
+
+    @include MQ(M) {
+        .wf-navigation {
+            margin: 20px 0;
+            margin: 0 0 16px;
+        }
+        a {
+            line-height: 2em;
+
+            display: block;
+
+            padding-right: 16px;
+            padding-left: 32px;
+
+            text-decoration: none;
+
+            color: $hyperlink-color;
+
+            @include calc(padding-top, "#{$header-M}/4");
+            @include calc(padding-bottom, "#{$header-M}/4");
+            &.current {
+                color: $hyperlink-color;
+                background-color: lighten($submenu-background, 10%);
+            }
+            &:hover {
+                color: $hyperlink-color;
+                background-color: lighten($submenu-background, 30%);
+            }
+            .no-touch &:hover {
+                color: $hyperlink-color;
+                background-color: lighten($submenu-background, 30%);
+            }
+        }
+    }
+    
+    .wf-navigation {
+        margin: 0 0 16px;
+        padding-left: 0;
+
+        list-style-type: none;
+    }
+    .sub-menu {
+        display: none;
+
+        padding: 0 10px 20px 15px;
+    }
+    a {
+        line-height: 2em;
+
+        display: block;
+
+        padding-right: 16px;
+        padding-left: 32px;
+
+        text-decoration: none;
+
+        color: $hyperlink-color;
+
+        @include calc(padding-top, "#{$header-S}/5");
+        @include calc(padding-bottom, "#{$header-S}/5");
+        &.current {
+            color: $hyperlink-color;
+            background-color: lighten($submenu-background, 10%);
+        }
+        &:hover {
+            color: $hyperlink-color;
+            background-color: lighten($submenu-background, 30%);
+        }
+        .no-touch &:hover {
+            color: $hyperlink-color;
+            background-color: lighten($submenu-background, 30%);
+        }
+    }
+    &.lateral-menu-is-open {
+        visibility: visible;
+
+        -webkit-transition: -webkit-transform 0.4s 0s;
+           -moz-transition:    -moz-transform 0.4s 0s;
+                transition:         transform 0.4s 0s;
+
+        @include transform(translateX(0));
+        /* smooth the scrolling on touch devices - webkit browsers */
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+
+#wf-nav_lateral .item-has-children > a {
+    font-weight: 300;
+
+    position: relative;
+
+    text-transform: uppercase;
+    /* this is the right arrow to show that the item has a submenu  */
+    &::after {
+        position: absolute;
+        right: 1em;
+
+        display: block;
+
+        width: 8px;
+        height: 11px;
+
+        content: "";
+
+        background: url("../img/wf-arrow.svg") no-repeat center center;
+        background-size: 8px 11px;
+
+        @include center(y);
+        @include transition-property(transform);
+        @include transition-duration(0.2s);
+    }
+    &.submenu-open::after {
+        @include transform(translateY(-50%) rotate(90deg));
+    }
+}
+

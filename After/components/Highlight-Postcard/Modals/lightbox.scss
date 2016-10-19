@@ -1,0 +1,665 @@
+
+/************************************ *************** ************************************/
+
+/************************************ Light Box Popup ************************************/
+
+/************************************ *************** ************************************/
+.lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(68, 68, 68, 0.8);
+}
+
+.lightbox-popup {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    .lightbox-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        overflow: hidden;
+
+        width: 1015px;
+        height: auto;
+        margin-top: -290px;
+        margin-left: -510px;
+
+        background-color: #fff;
+
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+.lightbox-information,
+.lightbox-image {
+    float: left;
+}
+
+.lightbox-information {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    width: 35%;
+    height: 595px;
+    margin: 15px 0 15px 10px;
+    padding: 0 10px 0 0;
+}
+
+.lightbox-information-txt {
+    .lightbox-info-comment-text {
+        width: auto;
+    }
+
+    .lightbox-likeshare {
+        margin-top: 25px;
+    }
+
+    .user-about-edit-lightbox {
+        margin-bottom: -10px;
+    }
+}
+
+.lightbox-info-comment-loadmore {
+    cursor: pointer;
+
+    &:hover {
+        color: #4ad2d5;
+    }
+}
+
+.lightbox-image {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 63%;
+
+    text-align: center;
+
+    background-color: #282828;
+}
+
+.lightbox-image-txt {
+    overflow: visible;
+
+    width: 100%;
+    height: auto;
+
+    background-color: #e7f7f6;
+}
+
+.lightbox-image {
+    table {
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.lightbox-image-txt {
+    table,
+    tr,
+    tbody,
+    td {
+        display: block;
+
+        height: 100%;
+    }
+}
+
+.cross {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+}
+
+.lightbox-nav-btns {
+    position: absolute;
+    top: 50%;
+
+    width: 100%;
+    height: 40px;
+    margin-top: -25px;
+
+    a {
+        position: absolute;
+        right: 0;
+
+        display: block;
+
+        width: 35px;
+        height: 80px;
+
+        cursor: pointer;
+        text-align: center;
+
+        opacity: 0.8;
+        background-image: url("../Images/slim-arrow-sprite.png");
+        background-repeat: no-repeat;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
+
+.body-load-more:hover {
+    color: #fff;
+    background: url(../../../../Images/gray-pixel.png) repeat;
+}
+
+.nav-btn {
+    &.prev {
+        left: 25px;
+
+        width: 26px;
+        height: 55px;
+
+        -webkit-transform: rotate(180deg);
+           -moz-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+             -o-transform: rotate(180deg);
+                transform: rotate(180deg);
+
+        background-image: url("../../../../Images/slim-arrow.png");
+    }
+
+    &.next {
+        right: 25px;
+
+        width: 26px;
+        height: 55px;
+
+        background-image: url("../../../../Images/slim-arrow.png");
+    }
+}
+
+.lightbox-information {
+    span {
+        color: #56cacc;
+    }
+
+    hr {
+        float: left;
+
+        width: 90%;
+        height: 0;
+
+        text-align: center;
+    }
+}
+
+.lightbox-info-icon {
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #282828;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.lightbox-info-hl {
+    width: 100%;
+    height: 1px;
+    margin: 15px 0;
+
+    background: #e4e4e4;
+}
+
+.lightbox-info-title {
+    font-size: 14px;
+    line-height: 18px;
+
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.lightbox-info-comment-wrap {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.lightbox-info-comment-icon {
+    width: 30px;
+    height: 30px;
+
+    border: 1px solid #282828;
+}
+
+.lightbox-info-comment-hr {
+    margin-bottom: 10px;
+
+    border-top: 1px solid #e4e4e4;
+}
+
+.lightbox-comment-options {
+    font-size: 12px;
+    font-weight: 200;
+
+    float: right;
+
+    margin: 0 10px 10px 0;
+
+    text-align: right;
+
+    color: #585858;
+
+    .lightbox-info-comment-text.fR {
+        text-align: right;
+
+        time.timeago {
+            width: auto;
+        }
+    }
+}
+
+.lightbox-info-comment-text.fL > a {
+    position: relative;
+    top: 8px;
+}
+
+.lightbox-comment-options {
+    a {
+        &:link,
+        &:visited {
+            text-decoration: none;
+
+            color: #585858;
+        }
+
+        &:hover {
+            color: #57cacd;
+        }
+    }
+
+    li {
+        display: inline;
+
+        margin-left: 10px;
+
+        cursor: pointer;
+        &:hover {
+            color: #57cacd;
+        }
+    }
+}
+
+.lightbox-information-txt .chosen-container-multi .chosen-choices {
+    margin-bottom: 0;
+}
+
+.lightbox-input {
+    font-size: 14px;
+
+    width: 89.5%;
+    height: auto;
+    min-height: 90px;
+    margin: 0;
+    padding: 10px 5px;
+
+    border: medium none;
+
+    &:focus,
+    &:hover {
+        border: none;
+    }
+}
+
+.lightbox-input-addbtn {
+    font-size: 14px;
+
+    width: 30px;
+    margin: 5px 0 0 0;
+
+    text-align: right;
+
+    color: #595b5c;
+
+    &:last-child:hover {
+        background: #00adb0;
+    }
+
+    img {
+        position: absolute;
+
+        margin: 4px 0 0 -20px;
+    }
+
+    &:last-child {
+        width: 100px;
+        height: 23px;
+        margin: 0 0 0 10px;
+        padding-top: 11px;
+
+        text-align: center;
+
+        color: #fff;
+        background: none repeat scroll 0 0 #56cacc;
+    }
+}
+
+.text-block {
+    line-height: 160%;
+
+    padding: 15px 60px 50px;
+
+    border-bottom: 1px solid #b0b0b0;
+    background-color: #fff;
+}
+
+.text-block-in {
+    margin: 0;
+
+    color: #555;
+}
+
+.lightbox-image-txt .text-block-in {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+
+    width: 83%;
+    margin-left: 114px;
+
+    text-align: left;
+
+    color: #606060;
+}
+
+.body-cont-top-txt .lightbox-likeshare {
+    margin-bottom: 10px;
+}
+
+.lightbox-likeshare img {
+    margin: 0 10px 0 10px;
+}
+
+.lightbox-likeshare-count {
+    font-size: 19px;
+
+    margin-top: 3px;
+    margin-right: 15px;
+    margin-left: 6px;
+
+    color: #56cacc;
+}
+
+.lightbox-image-txt {
+    height: auto !important;
+
+    background-color: #fff;
+    .text-block {
+        font-size: 22px;
+
+        position: relative;
+
+        width: 90%;
+        min-height: 40px;
+        margin-top: 45px;
+        margin-left: 50px;
+        padding: 50px 0 20px;
+
+        border-bottom: medium none;
+        background-color: #e7e6e6;
+    }
+
+    .text-block-in:first-of-type {
+        margin-top: 30px;
+    }
+
+    .block-post-media {
+        display: none;
+
+        margin: 0;
+    }
+}
+
+.Lightbox-text-profile-pic {
+    position: absolute;
+    top: 25px;
+    left: 30px;
+
+    display: block;
+
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.Lightbox-text-username {
+    font-size: 0;
+
+    position: absolute;
+    top: 23px;
+    left: 114px;
+
+    span {
+        font-size: 18px;
+        font-weight: 300;
+
+        color: #56cacc !important;
+    }
+}
+
+.lightbox-slider-wrap {
+    position: relative;
+
+    width: 90%;
+    height: 160px;
+    margin: 20px 0 0 50px;
+}
+
+.lightbox-arrows #lightbox-prev {
+    position: absolute;
+    z-index: 99999;
+    top: 60px;
+    left: -30px;
+
+    height: 40px;
+
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+
+.lightbox-slider-outer {
+    position: relative;
+
+    float: left;
+    overflow: hidden;
+
+    width: 100%;
+    height: 160px;
+}
+
+#lightbox_slider_inner {
+    position: absolute;
+
+    height: 160px;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+
+    &:after {
+        clear: both;
+
+        content: "";
+    }
+}
+
+.lightbox-arrows #lightbox-next {
+    position: absolute;
+    z-index: 99999;
+    top: 60px;
+    right: -30px;
+
+    height: 40px;
+}
+
+.lightbox-slider-wrap .block-post-media {
+    display: block;
+    float: left;
+    overflow: hidden;
+
+    width: 200px;
+    height: 160px;
+    margin-right: 20px;
+
+    img {
+        float: left;
+
+        width: 200px;
+        height: 160px;
+        max-height: none;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 160px;
+        min-height: 160px;
+    }
+}
+
+div#vCommentList table tbody tr > td:first-child {
+    position: relative;
+
+    width: 34px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        vertical-align: top;
+    }
+}
+
+.lightbox-information-txt {
+    overflow: visible;
+
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.lightbox-input-box {
+    width: 100%;
+    height: auto;
+
+    border: 1px solid #bdc8d1;
+}
+
+.lightbox-information-txt {
+    .lightbox-input {
+        width: 100%;
+        min-height: 50px;
+    }
+    .lightbox-info-comment-wrap {
+        margin: 2px 0;
+    }
+}
+
+.lightbox-info-comment-text {
+    font-size: 13px;
+    line-height: 18px;
+
+    width: 225px;
+    padding: 0 0 0 10px;
+
+    text-align: left;
+
+    color: #585858;
+}
+
+
+
+
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-width: 100%;
+    max-height: 463px;
+    margin: 0 auto;
+}
+
+.carousel-inner > .item.active, .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right {
+    display: flex;
+    height: 463px;
+    align-items: center;
+}
+
+
+.carousel {
+    height: 463px;
+    background-color: #000;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .lightbox-image {
+        width: 100%;
+        height: 0px;
+    }
+}
+
+
+.carousel {
+    height: 463px;
+    background-color: #000;
+}
+
+.carousel-inner > .item {
+    &.active,
+    &.next.left,
+    &.prev.right {
+        display: flex;
+
+        height: 463;
+
+        align-items: center;
+    }
+    > {
+        img,
+        a > img {
+            max-width: 100%;
+            max-height: 463px;
+            margin: 0 auto;
+        }
+    }
+}

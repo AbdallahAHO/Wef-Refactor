@@ -1,0 +1,55 @@
+/************************************ LOADING PANEL ************************************/
+.load-panel {
+    font-family: "Arial Unicode MS", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    position: fixed;
+    z-index: 25;
+
+    display: none;
+    overflow: auto !important;
+
+    text-align: center;
+
+    opacity: 0;
+    color: #57cacd;
+    border: 2px solid #57cacd;
+    border-radius: 10px;
+    background: none repeat scroll 0 0 #ffffff;
+    box-shadow: 0 3px 7px #c9c9c9;
+}
+
+.load-panel-warning {
+    z-index: 1000;
+
+    overflow: auto !important;
+
+    border-color: #57cacd;
+}
+
+.load-panel-close {
+    font-size: 15px;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    cursor: pointer;
+}
+
+.load-top {
+    margin: 0;
+    padding: 20px 20px 20px;
+}
+
+.load-body {
+    font-size: 16px;
+    font-weight: 300;
+
+    padding: 0 20px 20px 20px;
+
+    img {
+        width: 50px;
+    }
+}

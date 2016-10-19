@@ -1,0 +1,37 @@
+//Global Variables navigations menu
+// colors
+$main-text: #4e6361; // main text`
+$link: #6cac70; // anchor tags
+$body-background: #F5EEEE; // body background color
+$header-background: #ffffff;
+$submenu-background: #242e30;
+$hyperlink-color: white; // submenu items text color
+// z-index 
+$secondary-nav: 4;
+$content-zindex: 1;
+$header-zindex: 3;
+// Header height 
+$header-S: 50px;
+$header-M: 50px;
+// Navigation Submenu size
+$nav-width-S: 260px;
+
+
+// Search box height 
+$search-height-S: 60px;
+$search-height-M: 80px;
+//End Variables
+
+//Search Box
+$input-background: #417f82; // green
+$color-3: #e2e3df; // grey light 
+
+//Overlay color
+$overlay-background: #49d9de;
+$header-height-S: 40px;
+$header-height-L: 50px;
+$below-content: 1;
+$content: 2;
+$above-content: 3;
+$nav-width-S: 260px;
+

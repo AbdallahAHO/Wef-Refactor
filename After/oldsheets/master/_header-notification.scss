@@ -1,0 +1,191 @@
+
+/*Notification Panel*/
+.notification_btn {
+    display: block;
+
+    width: 22px;
+    height: 22px;
+
+    cursor: pointer;
+
+    background: url(../../../../Images/globe.png) no-repeat;
+}
+
+#notification_overlay {
+    position: fixed;
+    z-index: 10;
+
+    display: none !important;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+}
+
+#notification_panel {
+    position: absolute;
+    z-index: 100;
+    top: 35px;
+    right: -45px !important;
+
+    overflow: hidden;
+
+    width: 340px;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+
+#notification_tip {
+    z-index: 20;
+    top: 30px;
+    right: 5px !important;
+
+    display: none;
+
+    width: 10px;
+    height: 10px;
+
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+
+    background-color: #57cacd;
+}
+
+.notification-header {
+    font-size: 22px;
+
+    width: 90%;
+    height: 33px;
+    padding-top: 22px;
+    padding-left: 10%;
+
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #57cacd;
+}
+
+.notification-body {
+    min-height: 100px;
+
+    border: 1px solid #eaebeb;
+    border-top: none;
+    background-color: #fff;
+}
+
+.notification-post {
+    font-size: 14px;
+    line-height: 18px;
+
+    position: relative;
+
+    width: 83%;
+    padding: 10px 5% 10px 12%;
+
+    color: #a0afb1;
+    border-top: 1px solid #e1dddd;
+    background-color: #f3f3f3;
+}
+
+.new-post {
+    background-color: #fff;
+}
+
+#notification_check {
+    position: absolute;
+    top: 20px;
+    left: 14px;
+}
+
+.notification-post {
+    a {
+        font-size: 14;
+
+        text-decoration: none;
+
+        color: #57cacd;
+    }
+
+    img {
+        width: 35px;
+        height: 35px;
+        margin: 10px 5px 0 0;
+
+        border-radius: 3px;
+    }
+}
+
+.notification-time {
+    font-size: 13px;
+
+    margin-top: 10px;
+}
+
+.notification-accept {
+    font-size: 13px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 6px 25px;
+
+    color: #fff;
+    border: 1px solid #57cacd;
+    background-color: #57cacd;
+}
+
+.notification-reject {
+    font-size: 13px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 6px 25px;
+
+    color: #fff;
+    color: #000;
+    border: 1px solid #57cacd;
+    border: 1px solid #f9e449;
+    background-color: #57cacd;
+    background-color: #f9e449;
+}
+
+.notification-accept:hover {
+    color: #57cacd;
+    border: 1px solid #57cacd;
+    background-color: #fff;
+}
+
+.notification-reject:hover {
+    color: #cd0000;
+    border: 1px solid #f9e449;
+    background-color: #fff;
+}
+
+.notification-icon + .notification-time,
+.notification-reject + .notification-time {
+    margin-top: 25px;
+}
+
+/*full size notification page tweaks*/
+.full-notification-wrap {
+    .notification-post:first-child {
+        border-top: none;
+    }
+
+    label.css-label {
+        left: 80px;
+    }
+
+    .chosen-container {
+        float: left;
+    }
+}
+
+
+
+/***END CUSTOM CHECKBOX***/

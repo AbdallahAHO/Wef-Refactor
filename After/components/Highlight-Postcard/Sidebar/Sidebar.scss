@@ -1,0 +1,23 @@
+/* 2.2 Sticky Sidebar */
+
+
+//Global Variables
+@import "c-sidebar-variables.scss";
+	
+	/* Global Styles*/
+	@import "_c-sidebar";
+
+	/* 2.2.1 Isotope Filters */
+	@import "_c-sidebar__isotopefilters";
+
+		/* 2.2.1.a Isotope Filters Responsive */
+		@import "_c-sidebar__filters--responsive";
+
+	/* 2.2.2 Suggested Mates */
+	@import "_c-sidebar__suggestedmates";
+
+	/* 2.2.3 Featured Projects */
+	@import "_c-sidebar__featuredprojects";
+
+	/* 2.2.4 Copyrights */
+	@import "_c-sidebar__copyrights";

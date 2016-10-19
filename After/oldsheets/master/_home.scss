@@ -1,0 +1,199 @@
+/************************************ HOME ************************************/
+.profile-event-rside {
+    overflow: hidden;
+
+    width: 330px;
+}
+
+.profile-event-ad {
+    margin-top: 35px;
+}
+
+.profile-event-rside-title {
+    font-size: 21px;
+
+    margin: 20px 0 15px 0;
+
+    color: #2a2a2c;
+
+    img {
+        margin: 0 5px;
+    }
+}
+
+.profile-event-small-slider-wrap {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 324px;
+    height: 76px;
+}
+
+.profile-event-large-slider-wrap {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 324px;
+    height: 324px;
+}
+
+#profile-event-slider-1,
+#profile-event-slider-2,
+#profile-event-slider-3,
+#profile-event-slider-4 {
+    position: absolute;
+    left: 0;
+
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+}
+
+#profile-event-slider-1 {
+    height: 324px;
+}
+
+
+
+
+
+
+
+
+
+
+/******************************************************************************/
+
+/************************************ HOME ************************************/
+
+/******************************************************************************/
+.banner-wrapper-full {
+    width: 100%;
+    height: 18px;
+
+    background: #56cacc;
+}
+
+.home-lside {
+    width: 150px;
+    margin: 20px 0 0 0;
+}
+
+.home-lside-title-cont {
+    width: 100px;
+    margin: 5px 0 0 10px;
+}
+
+.home-lside-userpic {
+    overflow: hidden;
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 100px;
+}
+
+.home-lside-username {
+    font-size: 15px;
+    font-weight: 300;
+
+    margin: 0 0 0 10px;
+    padding-top: 6px;
+
+    color: #474747;
+}
+
+.home-lside-title {
+    margin: 5px 0 5px 0;
+    padding-top: 3px;
+
+    border-top: 1px solid #e3e3e3;
+
+    &:first-of-type {
+        margin-top: 0;
+
+        border: none;
+    }
+
+    &:nth-of-type(2) {
+        border-color: #57cacd;
+    }
+
+    a {
+        font-size: 14px;
+        font-weight: 300;
+
+        margin: 5px 0;
+
+        color: #474747;
+
+        &:hover {
+            color: #57cacd;
+        }
+    }
+
+    &:first-of-type a {
+        font-size: 16px;
+    }
+
+    &:hover {
+        color: #4fb0c4;
+    }
+}
+
+.home-lside-username:hover {
+    color: #4fb0c4;
+}
+
+.home-main {
+    position: relative;
+
+    width: 671px;
+    margin: 20px 30px;
+}
+
+.home-input {
+    font-size: 14px;
+
+    width: 620px;
+    height: 70px;
+    margin: 0;
+    padding: 10px 5px;
+
+    border: none;
+
+    &:focus,
+    &:hover {
+        border: none;
+    }
+}
+
+.main-cont {
+    width: 675px;
+    height: 500px;
+    margin: 0 0 0 0;
+    margin-left: -5px;
+}
+
+.home-rside-title:first-child {
+    margin-top: 0;
+}
+
+.home-rside-ad {
+    margin: 10px 0 0 0;
+}
+
+.home-rside-userpic:nth-child(odd) {
+    margin-right: 5px;
+}
+
+.home-rside-seemore {
+    font-size: 13px;
+    font-weight: 300;
+
+    color: #148da6;
+}

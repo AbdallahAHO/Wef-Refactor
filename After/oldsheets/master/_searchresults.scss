@@ -1,0 +1,196 @@
+
+/************************************ ***************** ************************************/
+
+/************************************  SEARCH - RESULTS ************************************/
+
+/************************************ ***************** ************************************/
+.big-banner-image {
+    position: relative;
+
+    width: 100%;
+    height: 240px;
+}
+
+.big-banner-image-overlay {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 100%;
+
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 141px;
+    padding: 100px 0 0 0;
+
+    text-align: center;
+
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.big-banner-image img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+}
+
+.search-nav-desc {
+    font-size: 14px;
+    font-weight: 200;
+
+    margin: 5px 0 0 0;
+}
+
+.list-cont {
+    width: 100%;
+    height: 90px;
+    padding: 12px;
+
+    &:hover {
+        background: url(../../../../Images/d2f1f3.png) repeat;
+    }
+}
+
+.list-user-pic {
+    width: 95px;
+    height: 90px;
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.list-user-data {
+    margin: 0 0 0 20px;
+}
+
+.list-user-data-name {
+    font-size: 18px;
+    font-weight: 300;
+
+    color: #141f2f;
+
+    span {
+        font-size: 14px;
+        font-weight: 300;
+
+        margin-left: 12px;
+
+        color: #33aeb0;
+    }
+}
+
+.list-user-data-desc {
+    font-size: 14px;
+    font-weight: 300;
+
+    margin: 5px 0;
+
+    color: #1e1e1e;
+}
+
+.list-user-btns {
+    clear: left;
+
+    margin: 0 0 0 20px;
+}
+
+.list-user-btn {
+    font-size: 12px;
+    font-weight: 300;
+
+    min-width: 70px;
+    height: 21px;
+    margin: 0 5px 0 0;
+    padding: 5px 10px 0 10px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+
+    &:hover {
+        color: #56cacc;
+        background: #fff;
+    }
+}
+
+.list-user-project {
+    position: relative;
+
+    overflow: hidden;
+
+    width: 155px;
+    height: 90px;
+    margin: 0 5px;
+
+    background: #56cacc;
+}
+
+.list-user-project-ach {
+    font-size: 40px;
+    font-weight: 200;
+
+    position: relative;
+
+    width: 155px;
+    height: 60px;
+    margin: 0 5px;
+    padding: 30px 0 0 0;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+
+    img {
+        margin-right: 5px;
+    }
+}
+
+.list-user-project img {
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    &:hover {
+        opacity: 0.9;
+    }
+}
+
+.list-user-project-vidplay {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 50px;
+
+    img {
+        width: auto !important;
+        max-width: 1000 !important;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+}
+
+
+/************************************ ********************* ************************************/
+
+/************************************  END SEARCH - RESULTS ************************************/
+
+/************************************ ********************* ************************************/
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+.bubbletip {
+	td {
+		&.bt-topleft {
+			background-image: $bubbletip-ie-url_0;
+			background-repeat: no-repeat;
+			background-position: 0 0;
+			background-attachment: scroll;
+		}
+		&.bt-top {
+			background: transparent $bubbletip-ie-url_1 repeat-x scroll 0 0;
+		}
+		&.bt-topright {
+			background: transparent $bubbletip-ie-url_2 no-repeat scroll 0 0;
+		}
+		&.bt-left {
+			background: transparent $bubbletip-ie-url_3 repeat-y scroll 0 0;
+		}
+		&.bt-right {
+			background: transparent $bubbletip-ie-url_5 repeat-y scroll 0 0;
+		}
+		&.bt-bottomleft {
+			background: transparent $bubbletip-ie-url_7 no-repeat scroll 0 0;
+		}
+		&.bt-bottom {
+			background: transparent $bubbletip-ie-url_8 repeat-x scroll 0 0;
+		}
+		&.bt-bottomright {
+			background: transparent $bubbletip-ie-url_9 no-repeat scroll 0 0;
+		}
+		&.bt-left-tail div {
+			&.bt-left {
+				background: transparent $bubbletip-ie-url_3 repeat-y scroll 0 0;
+			}
+			&.bt-left-tail {
+				background: transparent $bubbletip-ie-url_4 no-repeat scroll 0 0;
+			}
+		}
+		&.bt-right-tail div {
+			&.bt-right {
+				background: transparent $bubbletip-ie-url_5 repeat-y scroll 0 0;
+			}
+			&.bt-right-tail {
+				background: transparent $bubbletip-ie-url_6 no-repeat scroll 0 0;
+			}
+		}
+	}
+	table {
+		&.bt-top {
+			th {
+				background: transparent $bubbletip-ie-url_1 repeat-x scroll 0 0;
+			}
+			td div {
+				background: transparent $bubbletip-ie-url_10 no-repeat scroll 0 0;
+			}
+		}
+		&.bt-bottom {
+			th {
+				background: transparent $bubbletip-ie-url_8 repeat-x scroll 0 0;
+			}
+			td div {
+				background: transparent $bubbletip-ie-url_11 no-repeat scroll 0 0;
+			}
+		}
+	}
+}

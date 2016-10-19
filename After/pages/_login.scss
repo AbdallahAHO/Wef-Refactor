@@ -1,0 +1,78 @@
+.wf-login-topbar {
+	font-size: 30px;
+	font-weight: 500;
+	display: flex;
+	width: 100%;
+	margin-top: -5px;
+	height: 135px;
+	letter-spacing: 0.05em;
+	color: #fff;
+	background: url(../../../../Images/blue-pixel.png) repeat;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.login-wrapper {	
+	margin-top: 10vh;
+}
+
+
+.form-signin {
+  max-width: 380px;
+  padding: 45px 50px 15px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	   display: inline-block;
+	   vertical-align: middle;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 792px) {
+	
+	.login-wrapper {	
+		margin-top: 0vh;
+		    height: 100px;
+	}
+
+	.form-signin {
+	  max-width: 100%;
+	  padding: 45px 50px 15px;
+	  margin: 0 auto;
+	  background-color: #fff;
+	  border: none;  
+	}
+
+}

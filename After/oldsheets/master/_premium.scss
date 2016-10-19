@@ -1,0 +1,163 @@
+
+/*********************************************************************************/
+
+/************************************ PREMIUM ************************************/
+
+/*********************************************************************************/
+.prem-top-bar {
+    width: 100%;
+    height: 10px;
+
+    background: url(../../../../Images/e7f7f6.png) repeat;
+}
+
+.prem-top-bar-main {
+    font-size: 36px;
+    font-weight: 500;
+
+    display: flex;
+
+    width: 100%;
+    height: 150px;
+
+    letter-spacing: 0.05em;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.su-banner-cont {
+    font-size: 46px;
+
+    width: 100%;
+    height: 241px;
+
+    background: url("../../../../Images/sign-up-banner.jpg") repeat scroll 0 (0 / contain) rgba(0, 0, 0, 0);
+}
+
+.su-banner-txt {
+    font-size: 46px;
+    font-weight: 500;
+
+    position: absolute;
+
+    width: 100%;
+    margin: 10% 0 0;
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #fff;
+}
+
+.prem-user-data-cont {
+    display: flex;
+
+    width: 70%;
+    margin: 30px 0;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.prem-user-img {
+    width: 130px !important;
+    height: 110px !important;
+
+    img {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.prem-user-data {
+    width: 680px;
+    margin: 0 0 0 30px;
+}
+
+.prem-user-title {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+
+    margin-bottom: 20px;
+
+    color: #4a4a4b;
+}
+
+.prem-user-desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+
+    color: #4a4a4b;
+}
+
+.prem-table {
+    width: 100%;
+
+    border: 1px solid #c3cdce;
+
+    tr {
+        &:nth-child(2n-1) {
+            background: url(../../../../Images/e7f7f6.png) repeat;
+        }
+
+        &:first-child {
+            background: url(../../../../Images/blue-pixel.png) repeat;
+
+            td {
+                font-size: 30px;
+                font-weight: 500;
+
+                color: #fff;
+            }
+        }
+
+        td:first-child {
+            width: 600px;
+            padding-left: 25px;
+
+            text-align: left;
+        }
+    }
+
+    td {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+
+        width: 25%;
+        height: 80px;
+        padding-top: 5px;
+
+        vertical-align: middle;
+
+        color: #838383;
+        border: 1px solid #c3cdce;
+    }
+}
+
+.prem-table-btn {
+    font-size: 30px;
+    font-weight: 500;
+
+    display: block;
+
+    width: 160px;
+    height: 35px;
+    padding-top: 20px;
+
+    color: #fff;
+    background: url("../../../../Images/blue-pixel.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+    align-items: center;
+    justify-content: center;
+}
+
+

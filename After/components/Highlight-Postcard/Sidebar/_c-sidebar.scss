@@ -1,0 +1,38 @@
+.wf-highlights-sidenav{
+  padding-top: 10px;
+  position: fixed;
+	right:0;
+  max-width: 260px;  
+}
+
+
+
+//For larger Screens
+@media only screen and (min-width: 64.063em) and (max-width: 90em){ 
+	.wf-highlights-sidenav{
+	right: 15px; 
+	}
+} 
+
+ 
+@media only screen and (min-width: 90.063em) and (max-width: 120em){ 
+  .wf-highlights-sidenav{
+  right: 45px; 
+  }
+} 
+
+
+
+/*Highlights Sidebar Blocks title*/
+.wf-sidebar-blocks__title{
+	@include clearfix;
+	display:block;
+	font-size: 14px;
+    color: #aaa;
+    font-weight: 300;
+    margin-top: 20px;
+    border-bottom: solid 1px #ddd;
+    padding-bottom: 5px;
+}
+
+

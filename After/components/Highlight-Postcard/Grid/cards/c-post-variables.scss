@@ -1,0 +1,120 @@
+//Highlight Post Variables
+
+$width: 260px;
+$gap: 16px;
+$padding: 16px; //extra padding from body
+
+
+
+
+
+$post-inner-background: #ffffff;
+
+//Avatar
+$avatar-default: #777777;
+$avatar-darkBG: #777777;
+
+
+
+
+
+//Post Card Styling
+
+	//Default Card
+	$post-regular--headerBG: #ffffff;
+	$post-regular--headerURLs:#56cacc;
+	$post-regular--headerURLs-hover:#24b3b5;
+	$post-regular--headerURLs-visited:#57cacd;
+	$post-regular--headerText:#404041;
+	$post-regular--headerTime:#aaa;
+	
+	$post-regular--footerBG: #57cacd;
+	$post-regular--footerfont:#fff;
+
+	$post-regular--border: rgba(86, 202, 204, 0.65);
+	$post-regular--avatarborder: #aaaaaa;
+
+
+
+
+
+	//Project Card
+	$post-project--headerBG:#55426D;
+	$post-project--headerURLs:rgb(255, 255, 255);
+	$post-project--headerURLs-hover:#c6c6c6;
+	$post-project--headerURLs-visited:#c6c6c6;
+	$post-project--headerText:#DADADA;
+	$post-project--headerTime:rgb(245, 241, 241);
+	
+	$post-project--footerBG: #55426D;
+	$post-project--footerfont:#fff;
+
+	$post-project--border: #55426D;
+	$post-project--avatarborder: #777;
+
+
+
+
+
+	//Testimonial Card
+	$post-testimonial--headerBG:rgb(246, 224, 60);
+	$post-testimonial--headerURLs:#42989F;
+	$post-testimonial--headerURLs-hover:#42989F;
+	$post-testimonial--headerURLs-visited:#42989F;
+	$post-testimonial--headerText:#191919;
+	$post-testimonial--headerTime:rgb(103, 103, 103);;
+	
+	$post-testimonial--footerBG: rgb(246, 224, 60);
+	$post-testimonial--footerfont: #58564F;
+
+	$post-testimonial--border: rgba(86, 202, 204, 0.65);
+	$post-testimonial--avatarborder: white;
+
+
+
+
+	//Log Card
+	$post-log--headerBG:#f7ec8e;
+	$post-log--headerURLs:#57cacd;
+	$post-log--headerURLs-hover:#57cacd;
+	$post-log--headerURLs-visited:#57cacd;
+	$post-log--headerText:#191919;
+	$post-log--headerTime:#797272;
+	
+	$post-log--footerBG: #f7ec8e;
+	$post-log--footerfont: black;
+
+	$post-log--border: #56CACC;
+	$post-log--avatarborder: #777;
+
+
+
+	//Photo Card
+	$post-photo--headerBG:#F6E03C;
+	$post-photo--headerURLs:#57cacd;
+	$post-photo--headerURLs-hover:#57cacd;
+	$post-photo--headerURLs-visited:#57cacd;
+	$post-photo--headerText:#191919;
+	$post-photo--headerTime:#797272;
+	
+	$post-photo--footerBG: #f7ec8e;
+	$post-photo--footerfont: black;
+
+	$post-photo--border: #56CACC;
+	$post-photo--avatarborder: #777;
+
+
+
+	//Video Card
+	$post-video--headerBG:#f7ec8e;
+	$post-video--headerURLs:#57cacd;
+	$post-video--headerURLs-hover:#57cacd;
+	$post-video--headerURLs-visited:#57cacd;
+	$post-video--headerText:#191919;
+	$post-video--headerTime:#797272;
+	
+	$post-video--footerBG: #f7ec8e;
+	$post-video--footerfont: black;
+
+	$post-video--border: #56CACC;
+	$post-video--avatarborder: #777;

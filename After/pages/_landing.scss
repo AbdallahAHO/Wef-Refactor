@@ -1,0 +1,281 @@
+.wf-landing-scroll-top {
+   position:fixed;
+   bottom:0;
+   right:6%;
+   z-index:100;
+   background: #ffcc33;
+   font-size:24px;
+   border-top-left-radius:3px;
+   border-top-right-radius:3px;
+   
+   a:link,.scroll-top a:visited {
+	  color:#222;
+	} 
+}
+
+
+/*********************************************************************************/
+
+/************************************ LANDING ************************************/
+
+/*********************************************************************************/
+.landing-hero {
+    position: relative;
+
+    padding: 0;
+
+    background-size: cover;
+}
+
+.owl-wrapper-outer:after,
+.landing-slider:after {
+    display: table;
+    clear: both;
+
+    content: "";
+}
+
+.landing-hero .container12 {
+    height: 100%;
+}
+
+.landing-slider {
+    position: absolute !important;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.landing-hero-txt {
+    font-size: 25px;
+    font-weight: 500;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+}
+
+.landing-input {
+    font-size: 16px !important;
+    font-weight: 300;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px !important;
+    padding: 3px 12px 0 !important;
+
+    color: #fff !important;
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.4) !important;
+    box-shadow: 0 2px 3px #545454;
+}
+
+.landing-hero input {
+    &::-webkit-input-placeholder {
+        color: #fff;
+    }
+
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        color: #fff;
+    }
+
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #fff;
+    }
+
+    &:-ms-input-placeholder {
+        color: #fff;
+    }
+}
+
+.landing-submit {
+    font-size: 14px;
+    font-weight: 300;
+
+    height: 40px;
+    padding: 11px 18px;
+
+    letter-spacing: 0.02em;
+
+    color: #fff;
+    border: 1px solid #56cacc;
+    background: none repeat scroll 0 0 #5dc6cf;
+}
+
+.sign-up-input {
+    float: left;
+
+    width: 92px;
+
+    box-shadow: 0 3px 5px #3a3a3a;
+
+    input {
+        width: 92px;
+    }
+}
+
+
+
+
+.fb-input {
+    float: left;
+
+    width: 170px;
+    height: 40px;
+
+    margin: 0 0 0 10px;
+
+    cursor: pointer;
+
+    box-shadow: 0 3px 5px #3a3a3a;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+.app-store {
+    float: left;
+    clear: both;
+
+    height: 39px;
+    margin: 10px 0 0;
+
+    cursor: pointer;
+
+    box-shadow: 0 3px 5px #3a3a3a;
+}
+
+.ggl-play {
+    float: left;
+
+    height: 39px;
+    margin: 10px 0 0 15px;
+
+    cursor: pointer;
+
+    box-shadow: 0 3px 5px #3a3a3a;
+}
+
+
+
+
+
+.landing-submit:hover {
+    background: #35b0ba;
+}
+
+
+.landing-hero-big {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 120%;
+
+    display: none;
+
+    margin: 200px 0 0 0;
+
+    color: #fff;
+}
+
+
+.landing-title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 100%;
+
+    margin: 50px 0;
+
+    color: #404041;
+}
+
+.landing-sign-up {
+    float: right;
+
+    width: 308px;
+    margin: 10% 60px 0 0;
+    padding: 18px 18px 10px;
+
+    background: none repeat scroll 0 0 rgba(101, 99, 99, 0.75);
+}
+
+.landing-title2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+
+    margin: 30px 0;
+
+    color: #404041;
+}
+
+.landing-hiw-txt {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 130%;
+
+    color: #404041;
+}
+
+.landing-trending-cont {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+    border-top: 1px solid #c0bdbd;
+    background: #f9f9f9;
+}
+
+.trending-cont {
+    position: relative;
+
+    img {
+        display: block;
+
+        width: 100%;
+    }
+}
+
+.landing-trending-data {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 75px;
+    padding: 12px;
+
+    background: rgba(93, 198, 208, 0.7);
+}
+
+.landing-trending-name {
+    font-size: 20px;
+    font-weight: 500;
+
+    margin-bottom: 10px;
+
+    color: #fff;
+}
+
+.landing-trending-desc {
+    font-size: 14px;
+    font-weight: 300;
+
+    color: #fff;
+}

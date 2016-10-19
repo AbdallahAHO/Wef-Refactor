@@ -1,0 +1,90 @@
+
+/******************************* MODAL PANEL *************************************/
+
+/* MODAL PANEL */
+.modal-overlay {
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+
+    display: none;
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: #000;
+}
+
+.modal-panel {
+    position: fixed;
+    z-index: 20;
+    top: -9999px;
+    left: -9999px;
+
+    display: none;
+
+    width: 750px;
+    height: 495px;
+}
+
+.modal_panel_content {
+    padding: 30px;
+
+    color: #fff;
+    background: url(../../../../Images/blue-pixel.png) repeat;
+}
+
+.modal-achivement-title {
+    display: flex;
+
+    margin-bottom: 30px;
+
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 200;
+
+        margin: 8px 0 0 20px;
+
+        color: #fff;
+    }
+}
+
+.modal-achivement-list {
+    overflow: auto;
+
+    height: 330px;
+    padding-right: 300px;
+
+    li {
+        font-size: 24px;
+        font-weight: 200;
+        line-height: 28px;
+
+        margin-bottom: 30px;
+
+        span {
+            font-size: 28px;
+            font-weight: 500;
+
+            margin-bottom: 2px;
+        }
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+
+    cursor: pointer;
+
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/*End*/
+

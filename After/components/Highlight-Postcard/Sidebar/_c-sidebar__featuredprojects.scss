@@ -1,0 +1,101 @@
+.wf-sidebar-featured{
+	
+	margin-top: 25px;
+	padding-bottom: 3px;
+    border-bottom: 1px solid #DDDDDD;
+
+	.projectblock{
+		
+		margin-top: 5px;
+		
+		a:hover{text-decoration:none;}
+
+		.projectcover{
+			
+			.projectcover__title{
+				word-wrap: break-word;
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 700;
+				color: #616160;
+			}
+
+			.projectcover__image{
+				width: 100%;
+			    height: 100px;
+			    overflow: hidden;
+			    position: relative;
+			    margin-top: 5px;
+				
+				img {
+				    position: absolute;
+				    margin: auto; 
+				    min-height: 100%;
+				    min-width: 100%;
+				    left: -1000%;
+				    right: -1000%;
+				    top: -1000%;
+				    bottom: -1000%;
+				}
+			}
+		}
+
+		.projectcreator{
+			
+			margin-top: 5px;
+
+			//Avatar
+			.projectcreator__avatar{
+			    display: inline-block;
+
+			    img {
+			        display: block;
+			        overflow: hidden;
+			        float: left;
+
+			        width: 30px;
+		    		height: 30px;
+					
+					margin: 5px 7px 0 0;
+
+			        border: solid 1px #989393;
+			        border-radius: 50%;
+			    }
+			}
+
+
+			//text block
+			.projectcreator__textblock{
+				@include clearfix;
+				display: inline-block;
+				max-width: 100%;
+				margin-top: 3px;
+				
+				.name{    
+					@include clearfix;
+					@include word-wrap(normal); //bourbon mixin (http://bourbon.io/docs/#word-wrap)
+					@include ellipsis(100%); //bourbon mixin (http://bourbon.io/docs/#ellipsis)
+					display: block;	
+					font-size: 14px;
+		    		margin-bottom: 0px;
+		    		width:100%;
+				}
+
+				time{
+					@include clearfix;
+					@include word-wrap; //bourbon mixin (http://bourbon.io/docs/#word-wrap)
+					@include ellipsis(100%); //bourbon mixin (http://bourbon.io/docs/#ellipsis)
+					display: block;    
+					font-size: 12px;
+					color: rgb(170, 170, 170);
+				    font-size: 12px;
+				    width:100%;
+				    margin-top: -2px;
+				    color: #aaaaaa;
+				}
+			}
+		}
+
+	}
+
+}

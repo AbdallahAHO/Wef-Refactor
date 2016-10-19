@@ -1,0 +1,69 @@
+	$tagsinput-maindivborder: #ccc;
+	$tagsinput-maindivBG: #fff;
+
+	$tagsinput-inputtextcolor: #000;
+	$tagsinput-notvalidBG: #F6F6D4;
+	$tagsinput-notvalidtext: #353D3E;
+
+	$tagsinput-tagspanborder: #91DCDE;
+	$tagsinput-tagspanBG: #91DCDE;
+	$tagsinput-tagspantext: #ffffff;
+	$tagsinput-tagspanhyperlink: #F5EEEE;
+
+.tags_clear {
+	clear: both;
+	width: 100%;
+	height: 0;
+}
+
+.not_valid {
+	background: $tagsinput-notvalidBG !important;
+	color: $tagsinput-notvalidtext !important;
+	border: 1px solid red;
+}
+
+div.tagsinput {
+	border: 1px solid $tagsinput-maindivborder;
+	background: $tagsinput-maindivBG;
+	padding: 5px;
+	width: 100%;
+	height: 100px;
+	overflow-y: auto;
+	
+	input {
+		width: 80px;
+		margin: 0;
+		font-size: 13px;
+		border: 1px solid transparent;
+		padding: 5px;
+		background: transparent;
+		color: $tagsinput-inputtextcolor;
+		outline: 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+	}
+
+	div {
+		display: block;
+		float: left;
+	}
+
+	span.tag {
+		border: 1px solid $tagsinput-tagspanborder;
+		display: block;
+		float: left;
+		padding: 5px;
+		text-decoration: none;
+		background: $tagsinput-tagspanBG;
+		color: $tagsinput-tagspantext;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		font-size: 13px;
+		a {
+			font-weight: bold;
+			color: $tagsinput-tagspanhyperlink;
+			text-decoration: none;
+			font-size: 11px;
+		}
+	}
+}

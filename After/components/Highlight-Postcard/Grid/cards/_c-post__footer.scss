@@ -1,0 +1,98 @@
+.wf-highlights-card__footer {
+     position: relative;
+     padding: 5px;
+     padding-left: 5px;
+     color: $post-regular--footerfont;
+     background-color: $post-regular--footerBG;
+     a {
+          font-size: 10px;
+          position: relative;
+          display: inline-block;
+          padding-right: 5px;
+          text-decoration: none;
+          color: $post-regular--footerfont;
+          i {
+               font-size: 16px;
+               margin-right: 2px;
+               display: inline-block;
+               vertical-align: middle;
+          }
+     }
+}
+
+.post {
+     .wf-highlights-card__footer {
+          color: $post-regular--footerfont;
+          background-color: $post-regular--footerBG;
+          a {
+               color: $post-regular--footerfont;
+          }
+     }
+}
+
+.project {
+     .wf-highlights-card__footer {
+          padding: 3px;
+          padding-left: 5px;
+          padding-top: 5px;
+          color: $post-project--footerfont;
+          background-color: $post-project--footerBG;
+          a {
+               color: $post-project--footerfont;
+               margin-right:5px;
+               img {
+                    border: 0;
+                    width: 15px;
+                    display: inline-block;
+                    vertical-align:middle;
+               }
+               span {
+                    font-size: 14px;
+                    padding-left: 5px;
+                    display: inline-block;
+                    vertical-align:middle;
+               }
+          }
+          time {    
+            display: inline-block;
+            font-size: 12px;
+            color: #FFF;
+            margin-left: 5px;
+          }
+     }
+}
+
+.testimonial {
+     .wf-highlights-card__footer {
+          color: $post-testimonial--footerfont;
+          background-color: $post-testimonial--footerBG;
+          a {
+               color: $post-testimonial--footerfont;
+          }
+     }
+}
+
+
+.log {
+     .wf-highlights-card__footer {
+          color: $post-log--footerfont;
+          background-color: $post-log--footerBG;
+          a {
+               color: $post-log--footerfont;
+               margin-right:5px;
+               img {
+                    border: 0;
+                    width: 15px;
+                    display: inline-block;
+                    vertical-align:middle;
+               }
+               span {
+                    font-size: 14px;
+                    padding-left: 5px;
+                    display: inline-block;
+                    vertical-align:middle;
+               }
+          }
+     }
+}
+

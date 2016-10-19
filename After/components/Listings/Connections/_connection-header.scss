@@ -1,0 +1,45 @@
+
+.wf-connections-frontheader{
+
+	.jumbotron{
+		background: linear-gradient(rgba(69, 185, 189, 0.8), rgba(86, 202, 204, 0.8)), url("/Images/friends-bg.jpg");
+	    padding: 105px 0;
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    margin:0px;    
+		
+	    span {
+		  font-size: 4.625rem;
+		  margin-bottom: 0;
+		  margin-top: 0em;
+		  position: relative;
+		  text-align: center;
+		  color: white;
+		  display: block;
+		  width: 100%;
+
+		}
+
+	}
+	
+}
+
+
+	/* Smartphones (portrait and landscape) ----------- */
+	@media only screen and (max-width : 480px) {
+
+		.wf-connections-frontheader .jumbotron{padding: 10px 0;}
+
+		.wf-connections-frontheader .jumbotron span {
+		    font-size: 3rem;
+		    margin-bottom: 0;
+		    margin-top: 0em;
+		    position: relative;
+		    text-align: center;
+		    color: white;
+		    display: block;
+		    width: 100%;
+		    padding: 35px;
+		}
+	}
